@@ -117,7 +117,7 @@
 
 <a id="to-top" href="#"><i class="fa fa-angle-up"></i></a></div></div>
 
-<!-- <aside id="moove_gdpr_cookie_info_bar" class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-light-scheme gdpr_infobar_postion_bottom d-none" aria-label="GDPR Cookie Banner" style="display: none;">
+<aside id="moove_gdpr_cookie_info_bar" class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-light-scheme gdpr_infobar_postion_bottom d-none" aria-label="GDPR Cookie Banner" style="display: none;">
   <div class="moove-gdpr-info-bar-container">
     <div class="moove-gdpr-info-bar-content">
       <script type="text/html" id="wpb-modifications"></script>
@@ -329,7 +329,7 @@ apbct_public_sendAJAX(
 })</script>
     </div>
   </div>
-</aside> -->
+</aside>
 
 </body>
 
