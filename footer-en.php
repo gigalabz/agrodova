@@ -1,38 +1,4 @@
 <?php $year = date('Y'); ?>
-
-<style>
-  /* Footer bottom overrides */
-  #footer-outer .footer-bottom{
-    display:flex; align-items:center; justify-content:space-between;
-    gap:16px; flex-wrap:wrap;
-  }
-  /* Make legal items horizontal + readable color */
-  #footer-outer .footer-bottom .legal-menu{
-    display:flex; align-items:center; gap:24px;
-    list-style:none; margin:0; padding:0; flex-wrap:wrap;
-  }
-  #footer-outer .footer-bottom .legal-menu li{ display:inline-block; }
-  #footer-outer .footer-bottom .legal-menu li,
-  #footer-outer .footer-bottom .legal-menu a{
-    color:#222 !important;   /* darker text */
-    font-weight:600;
-    text-decoration:none;
-  }
-  #footer-outer .footer-bottom .legal-menu a:hover{
-    color:#000 !important; text-decoration:underline;
-  }
-
-  /* Darken the copyright text */
-  #footer-outer .footer-bottom p{
-    margin:0; color:#111 !important; font-weight:600;
-  }
-
-  /* Optional: ensure the whole footer uses a darker base text color */
-  #footer-outer{ color:#222; }
-</style>
-
-
-
 <div class="wpb_wrapper"> </div></div></div></div></div></div></div></div>
 
 <div id="footer-outer"
@@ -48,33 +14,30 @@
      data-using-widget-area="true"
      data-link-hover="default"
      style="background:#eeeeee;">
+  <div id="footer-widgets" data-has-widgets="true" data-cols="3">
+    <div class="container">
+      <div class="row flex-column">
+        <div class="col-md-6">
+          <div id="nav_menu-2" class="widget widget_nav_menu">
+            <div class="menu-legal-en-container">
+              <ul id="menu-legal-en" class="menu">
+                <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="legal-notice/index.html">LEGAL NOTICE</a></li>
+                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="privacy-policy/index.html">PRIVACY POLICY</a></li>
+                <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="cookies-policy/index.html">COOKIES POLICY</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-  <!-- Divider above the bottom bar -->
-  <hr style="margin:0;border:0;border-top:1px solid #dcdcdc;">
-
-  <!-- Bottom bar: left = legal links (desktop), right = copyright -->
-  <style>
-    .footer-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
-    .footer-bottom .legal-menu{display:flex;gap:16px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
-    .footer-bottom .legal-menu a{text-decoration:none;color:inherit}
-    .footer-bottom p{margin:0}
-    @media (max-width: 767px){
-      .footer-bottom{flex-direction:column;text-align:center}
-    }
-  </style>
-  <div class="container" style="padding:15px 0;font-size:14px;">
-    <div class="footer-bottom" style="margin-top:30px;">
-      <!-- Left: legal links -->
-      <ul class="legal-menu">
-        <li><a href="legal-notice/index.html">LEGAL NOTICE</a></li>
-        <li><a href="privacy-policy/index.html">PRIVACY POLICY</a></li>
-        <li><a href="cookies-policy/index.html">COOKIES POLICY</a></li>
-      </ul>
-
-      <!-- Right: copyright -->
-      <p>Agrodova <?= $year ?> - All Rights Reserved</p>
+        <div class="col-md-6">
+          <div id="custom_html-3" class="widget_text widget widget_custom_html">
+            <div class="textwidget custom-html-widget"><p style="margin:0;">Agrodova <?= $year ?> - All Rights Reserved</p></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
 </div>
 
 <div id="slide-out-widget-area-bg" class="slide-out-from-right-hover dark"></div>
@@ -258,6 +221,22 @@ var wpml_cookies={"wp-wpml_current_language":{"value":"en","expires":1,"path":"\
       <script id="wc-add-to-cart-js-extra">var wc_add_to_cart_params={"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/Agrodova.com\/carrito\/","is_cart":"","cart_redirect_after_add":"no"};</script>
       <script id="woocommerce-js-extra">var woocommerce_params={"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};</script>
       <script>var root=document.getElementsByTagName("html")[0]; root.setAttribute("class", "js");</script>
+      <script>(function (){
+var c=document.body.className;
+c=c.replace(/woocommerce-no-js/, 'woocommerce-js');
+document.body.className=c;
+})();</script>
+      <script id="nectar-slider-js-extra">var nectar_theme_info={"using_salient":"true"};</script>
+      <script id="nectar-frontend-js-extra">var nectarLove={"ajaxurl":"https:\/\/Agrodova.com\/wp-admin\/admin-ajax.php","postID":"41","rooturl":"https:\/\/Agrodova.com","disqusComments":"false","loveNonce":"96dae84d95","mapApiKey":""};
+var nectarOptions={"quick_search":"false","header_entrance":"false","mobile_header_format":"default","ocm_btn_position":"default","left_header_dropdown_func":"default","ajax_add_to_cart":"0","ocm_remove_ext_menu_items":"remove_images","woo_product_filter_toggle":"0","woo_sidebar_toggles":"true","woo_sticky_sidebar":"0","woo_minimal_product_hover":"default","woo_minimal_product_effect":"default","woo_related_upsell_carousel":"false","woo_product_variable_select":"default"};
+var nectar_front_i18n={"next":"Next","previous":"Previous"};</script>
+      <script id="cart-widget-js-extra">var actions={"is_lang_switched":"0","force_reset":"0"};</script>
+      <script id="wc-order-attribution-js-extra">var wc_order_attribution={"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/Agrodova.com\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};</script>
+      <script id="formidable-js-extra">var frm_js={"ajax_url":"https:\/\/Agrodova.com\/wp-admin\/admin-ajax.php","images_url":"https:\/\/Agrodova.com\/wp-content\/plugins\/formidable\/images","loading":"Loading\u2026","remove":"Remove","offset":"4","nonce":"768166f5f4","id":"ID","no_results":"No results match","file_spam":"That file looks like Spam.","calc_error":"There is an error in the calculation in the field with key","empty_fields":"Please complete the preceding required fields before uploading a file.","focus_first_error":"1","include_alert_role":"1","include_resend_email":""};
+var frm_password_checks={"eight-char":{"label":"Eight characters minimum","regex":"\/^.{8,}$\/","message":"Passwords require at least 8 characters"},"lowercase":{"label":"One lowercase letter","regex":"#[a-z]+#","message":"Passwords must include at least one lowercase letter"},"uppercase":{"label":"One uppercase letter","regex":"#[A-Z]+#","message":"Passwords must include at least one uppercase letter"},"number":{"label":"One number","regex":"#[0-9]+#","message":"Passwords must include at least one number"},"special-char":{"label":"One special character","regex":"\/(?=.*[^a-zA-Z0-9])\/","message":"Password is invalid"}};
+var frmCheckboxI18n={"errorMsg":{"min_selections":"This field requires a minimum of %1$d selected options but only %2$d were submitted."}};</script>
+      <script src='wp-content/cache/wpfc-minified/jq0kqx4c/bt8zc.js'></script>
+      <script>document.documentElement.className +=" js";</script>
       <script>(function(window, document){
 if(navigator.userAgent.match(/(Android|iPod|iPhone|iPad|BlackBerry|IEMobile|Opera Mini)/)){
 document.body.className +=" using-mobile-browser mobile ";
@@ -325,4 +304,5 @@ apbct_public_sendAJAX(
 </aside>
 
 </body>
+
 </html>
