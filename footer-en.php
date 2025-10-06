@@ -15,27 +15,36 @@
      data-link-hover="default"
      style="background:#eeeeee;">
   <div id="footer-widgets" data-has-widgets="true" data-cols="3">
-    <div class="container">
-      <div class="row flex-column">
-        <div class="col-md-6">
-          <div id="nav_menu-2" class="widget widget_nav_menu">
-            <div class="menu-legal-en-container">
-              <ul id="menu-legal-en" class="menu">
-                <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="legal-notice/index.html">LEGAL NOTICE</a></li>
-                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="privacy-policy/index.html">PRIVACY POLICY</a></li>
-                <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="cookies-policy/index.html">COOKIES POLICY</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div id="custom_html-3" class="widget_text widget widget_custom_html">
-            <div class="textwidget custom-html-widget"><p style="margin:0;">Agrodova <?= $year ?> - All Rights Reserved</p></div>
-          </div>
+    <div class="container" style="padding:15px 0;">
+  <div class="row"
+       style="display:flex; flex-direction:row; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin:0;">
+       
+    <!-- Left: legal links (stay inline; wrap on small screens) -->
+    <div class="col-md-6" style="flex:1 1 340px; min-width:260px; text-align:left;">
+      <div id="nav_menu-2" class="widget widget_nav_menu">
+        <div class="menu-legal-en-container">
+          <ul id="menu-legal-en" class="menu"
+              style="display:flex; gap:24px; list-style:none; margin:0; padding:0; flex-wrap:wrap;">
+            <li style="display:inline;"><a href="legal-notice/index.html" style="color:#222 !important; text-decoration:none; font-weight:600;">LEGAL NOTICE</a></li>
+            <li style="display:inline;"><a href="privacy-policy/index.html" style="color:#222 !important; text-decoration:none; font-weight:600;">PRIVACY POLICY</a></li>
+            <li style="display:inline;"><a href="cookies-policy/index.html" style="color:#222 !important; text-decoration:none; font-weight:600;">COOKIES POLICY</a></li>
+          </ul>
         </div>
       </div>
     </div>
+
+    <!-- Right: copyright (moves under on mobile) -->
+    <div class="col-md-6" style="flex:1 1 340px; min-width:260px; text-align:right;">
+      <div id="custom_html-3" class="widget_text widget widget_custom_html">
+        <div class="textwidget custom-html-widget">
+          <p style="margin:0; color:#111 !important; font-weight:600;">Agrodova <?= $year ?> - All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
   </div>
 
 </div>
