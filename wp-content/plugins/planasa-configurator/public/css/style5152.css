@@ -1,0 +1,929 @@
+@font-face {
+    font-family: 'CoFoSans';
+    src: url('../fonts/CoFoSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CoFoSans';
+    src: url('../fonts/CoFoSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dinot';
+    src: url('../fonts/DINOT-Light.otf') format('opentype');
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Dinot';
+    src: url('../fonts/DINOT-Medium.otf') format('opentype');
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+body{
+    font-family: 'Dinot';
+    font-weight: 400;
+    color:#7b7c7f;
+    margin:0;
+}
+section.planasa-main {
+    display: flex;
+    padding: 0 70px 0 0;
+    margin: 0;
+    margin-top: 120px;
+    height: calc(100vh - 120px);
+}
+.admin-bar section.planasa-main{
+    height: calc(100vh - 152px);
+}
+.planasa-products {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+.planasa-title {
+    display: flex;
+    color: #3F9C35;   
+    padding: 15px 45px;
+    height: 70px;
+    align-items: center;
+    flex: 1;
+    background-color: #0000000D;
+    position: relative;
+}
+.planasa-active .planasa-title {
+    background-color: #3F9C35;
+    color: #FFF; 
+}
+.planasa-title-number {
+    font-size: 50px;
+    line-height: 40px;
+    padding-right: 5px;
+    font-weight: 300;
+}
+.planasa-title-text {
+    padding-left: 10px;
+    position:relative;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight:400;
+    bottom: -2px;
+    text-transform: uppercase;
+    display: inline-flex;
+    flex-direction: column;
+}
+.planasa-title-number:last-of-type {
+    padding-right: 4px;
+}
+.planasa-active .planasa-title .planasa-title-text:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 2px;
+    height: 37px;
+    background-color: #FFF;
+}
+.planasa-title .planasa-title-text:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 2px;
+    height: 37px;
+    background-color: #3F9C35;
+}
+.planasa-container{
+    width: calc(85vw - 87px - 1pt);
+    margin:0 0 0 1pt;
+    display: flex;
+    flex-wrap: wrap;
+}
+.planasa-zone {
+    margin-right: 1pt;
+    width: calc(100% - 1pt - 15vw);
+    height: calc(100% - 25vh);
+
+}
+.planasa-attribute { 
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: calc(100% - 25vh);
+}
+.planasa-carousel {
+    width: 100%;
+    height: 50px;
+    height: 25vh;
+
+}
+.planasa-products-botonera {
+    height: calc(100% - 70px);
+}
+
+.planasa-products-button, .planasa-products-botonera label{
+    font-size: 18px !important;
+    height: calc(16.66% - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#3F9C35;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1pt solid #0000001A;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.planasa-products-botonera label > span{
+    color:#3F9C35 !important;
+    transition: all .2s ease-in-out;
+    opacity: 1;
+}
+.planasa-products-botonera input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+.planasa-products-botonera input[type="radio"]:checked + label.raspberry-btn, .planasa-products-botonera input[type="radio"]:hover + label.raspberry-btn {
+    background-color: #a61066;
+}
+.planasa-products-botonera input[type="radio"]:checked + label.blueberry-btn, .planasa-products-botonera input[type="radio"]:hover + label.blueberry-btn {
+    background-color: #4c61bc;
+}
+.planasa-products-botonera input[type="radio"]:checked + label.blackberry-btn, .planasa-products-botonera input[type="radio"]:hover + label.blackberry-btn {
+    background-color: #201a4b;
+}
+.planasa-products-botonera input[type="radio"]:checked + label.strawberry-btn, .planasa-products-botonera input[type="radio"]:hover + label.strawberry-btn {
+    background-color: #b1253f;
+}
+.planasa-products-botonera input[type="radio"]:checked + label.asparagus-btn, .planasa-products-botonera input[type="radio"]:hover + label.asparagus-btn {
+    background-color: #1f301e;
+}
+.planasa-products-botonera input[type="radio"]:checked + label.garlic-btn, .planasa-products-botonera input[type="radio"]:hover + label.garlic-btn {
+    background-color: #804734;
+}
+.planasa-products-botonera input[type="radio"]:checked + label .planasa-icon, .planasa-products-botonera input[type="radio"]:hover + label .planasa-icon{
+    opacity: 1;
+}
+.planasa-products-botonera input[type="radio"]:checked + label .planasa-products-name, .planasa-products-botonera input[type="radio"]:hover + label .planasa-products-name {
+    opacity: 0;
+}
+.planasa-icon{    
+    display: block;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.planasa-icon svg{
+    width: 70px;
+    height: 60px;
+}
+#planasa-map {
+    height: 100%;
+    width: 100%;
+}
+.planasa-zone-mapa{
+    height: 100%;
+    background-image: url(../images/map-blackberry.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center center;
+}
+.planasa-zone-bg {
+    height: calc(100% - 70px);
+    background-color: #ffffff;
+    position: relative;
+}
+.planasa-select-attribute{
+    height: calc(100% - 70px);
+}
+.planasa-select-attribute input[type="checkbox"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+    pointer-events: none;
+}
+.planasa-select-attribute label{
+    height: calc(20% - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#7b7c7f;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1pt solid #0000001A;
+    transition: all .5s ease-in-out;
+    pointer-events: none;
+}
+.planasa-select-attribute label{
+    pointer-events: all;
+}
+.planasa-select-attribute label:hover {
+    cursor: pointer;
+}
+.planasa-select-attribute label svg{
+    width: 48%;
+    height: 50%;
+}
+.planasa-select-attribute label svg path.cls-1{
+    fill:#999999;
+    stroke: #999999;
+}
+.planasa-select-attribute label svg path.cls-1{
+    fill:#1e9f2d
+}
+.planasa-attribute.color-raspberry .planasa-select-attribute input[type="checkbox"]:checked + label,.planasa-attribute.color-raspberry .planasa-select-attribute input[type="checkbox"]:hover + label {
+    background-color: #a61066;
+}
+.planasa-attribute.color-blueberry .planasa-select-attribute input[type="checkbox"]:checked + label,.planasa-attribute.color-blueberry .planasa-select-attribute input[type="checkbox"]:hover + label {
+    background-color: #4c61bc;
+}
+.planasa-attribute.color-blackberry .planasa-select-attribute input[type="checkbox"]:checked + label,.planasa-attribute.color-blackberry .planasa-select-attribute input[type="checkbox"]:hover + label {
+    background-color: #201a4b;
+}
+.planasa-attribute.color-strawberry .planasa-select-attribute input[type="checkbox"]:checked + label,.planasa-attribute.color-strawberry .planasa-select-attribute input[type="checkbox"]:hover + label {
+    background-color: #b1253f;
+}
+.planasa-attribute.color-asparagus .planasa-select-attribute input[type="checkbox"]:checked + label,.planasa-attribute.color-asparagus .planasa-select-attribute input[type="checkbox"]:hover + label {
+    background-color: #1f301e;
+}
+.planasa-attribute.color-garlic .planasa-select-attribute input[type="checkbox"]:checked + label,.planasa-attribute.color-garlic .planasa-select-attribute input[type="checkbox"]:hover + label {
+    background-color: #804734;
+}
+.planasa-select-attribute input[type="checkbox"]:checked + label svg .cls-1, .planasa-select-attribute input[type="checkbox"]:hover + label svg .cls-1{
+    fill:#FFF;
+}
+
+.planasa-carousel .owl-carousel, .planasa-carousel .owl-carousel .owl-stage-outer, .planasa-carousel .owl-stage, .planasa-carousel .owl-item{
+    height: 100%;
+    opacity: 1;
+}
+.planasa-zone-item{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.planasa-zone-item:not(.loading):before {
+    content: '';
+    background: #3F9C35;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 0;
+    mix-blend-mode: multiply;
+}
+.planasa-zone-recomendations{
+    background: #4c61bc;
+    height: 100%;
+    padding: 20px 8px 10px 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 10px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .05em;
+}
+.color-raspberry .planasa-zone-recomendations{
+    background: #a61066;
+}
+.color-blueberry .planasa-zone-recomendations{
+    background: #4c61bc;
+}
+.color-blackberry .planasa-zone-recomendations{
+    background: #201a4b;
+}
+.color-strawberry .planasa-zone-recomendations{
+    background: #b1253f;
+}
+.color-asparagus .planasa-zone-recomendations{
+    background: #1f301e;
+}
+.color-garlic .planasa-zone-recomendations{
+    background: #804734;
+}
+.planasa-zone-recomendations span{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.planasa-zone-recomendations svg{
+    height: 70px;
+    width: 20px;
+}
+
+.planasa-zone-text{
+    padding: 15px;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 300;
+    text-shadow: 0px 3pt 3pt #00000066;
+    letter-spacing: .05em;
+}
+.zone-text-title{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.recommended .planasa-zone-bottom{
+    width: calc(100% - 36px);
+}
+.planasa-zone-bottom {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: calc(100%);
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.planasa-zone-more {
+    margin: 15px 10px;
+    font-size: 12px;
+    height: 11px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    justify-content: flex-end;
+    line-height: 1;
+    flex-direction: row;
+    font-weight: 200;
+}
+
+.planasa-zone-more svg{
+    width: 23px;
+    height: 24px;
+    margin-left: -15px;
+}
+.planasa-zone-more span{
+    width: 55px;
+}
+.configurator-carousel .owl-nav{
+    position: absolute;
+    top:50%;
+    right: -20px;
+    margin: 0 !important;
+    transform: translateY(-50%);
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    font-size: 24px;
+    color: #00000099 !important;
+    background: unset !important;
+    line-height: 1;
+}
+.configurator-carousel .owl-nav{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* Toggle responsive */
+.visible-xs:before {
+    display: none;
+    content: " ";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    right: 10px;
+    top: 17px;
+    text-align: center;
+    background-image: url(../images/arrow-down-green.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    transform: rotate(86deg);
+}
+.planasa-active .visible-xs:before{
+    background-image: url(../images/arrow-down.svg);
+}
+.active-tab.visible-xs:before {
+    transform: unset;
+}
+.active-tab ~.collapsible__block_content {
+    display: flex!important;
+}
+.planasa-active .planasa-title{
+    animation: planasaTitle .5s normal forwards ease-in-out;
+    animation-iteration-count: 4;
+}
+.planasa-zone-item.loading {
+    background: #d6d6d6;
+    animation: loadingGrid 0.9s linear infinite;
+}
+.planasa-zone-item.loading.l-1{
+    animation-delay: -0.5s;
+}
+.planasa-zone-item.loading.l-2{
+    animation-delay: -0.4s;
+}
+.planasa-zone-item.loading.l-3{
+    animation-delay: -0.3s;
+}
+.planasa-zone-item.loading.l-4{
+    animation-delay: -0.2s;
+}
+.planasa-zone-item.loading.l-5{
+    animation-delay: -0.1s;
+}
+.planasa-zone-item.loading.l-6{
+    animation-delay: 0s;
+}
+@keyframes loadingGrid {
+    0%, 100% {
+        opacity: 0;
+    }
+    0% {
+        opacity: .5;
+    }
+}
+@keyframes planasaTitle {
+    from {
+        background-color: #0000000D;
+    }
+    to {
+        background-color: #3F9C35;
+    }
+}
+/* Modales */
+.planasa-body-modal{
+    color: #00000099;
+    letter-spacing: .03em;
+}
+.planasa-modales {
+    position: absolute;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    max-width: 280px;
+    padding: 35px;
+}
+.planasa-modales.planasa-modal-boton .planasa-body-modal{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.planasa-modales::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:#FBF9CE ;
+    mix-blend-mode: multiply;
+}
+.planasa-modales a{
+    position: relative;
+    z-index: 1;
+}
+.planasa-modales.color-asparagus:before, .planasa-modales.color-garlic:before{
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    z-index: -1;
+}
+.planasa-modales.color-asparagus, .planasa-modales.color-garlic {
+    z-index:0
+}
+span.modal-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 5;
+}
+span.modal-close svg {
+    width: 24px;
+    height: 24px;
+}
+.title-modal{
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.text-modal {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+.text-modal.small {
+    text-transform: unset;
+    margin-top: 10px;
+}
+.text-modal-medium {
+    font-weight: 300;
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0;
+
+}
+.pl-green-button{
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 14px;
+    border-radius: 100px;
+    padding-bottom: 14px;
+    background-color: #3F9C35;
+    color:#fff;
+    text-decoration: none;
+}
+.p-button-modal{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0;
+    z-index: 3;
+    padding: 0;
+}
+.planasa-modal-boton{
+    padding: 35px 0 35px;
+    max-width: 320px;
+}
+.planasa-modal-boton .planasa-body-modal{
+    padding: 15px 60px !important;
+}
+.planasa-modal-boton .title-modal{
+    line-height: 1.2;
+}
+.planasa-modales .pl-green-button{  
+    display: block;
+    text-align: center;
+    font-size: 19px;
+}
+.configurator-carousel .owl-stage{
+    padding: 0 !important;
+}
+
+.planasa-main:not(.zones-active) #planasa-map, .planasa-main:not(.attribute-active) .planasa-select-attribute label,.planasa-main:not(.zones-active) #zoom-mapa {
+    pointer-events: none !important;
+}
+.planasa-select-attribute input[disabled="disabled"] + label {
+    pointer-events: none;
+}
+.planasa-main:not(.attribute-active) .planasa-select-attribute input + label svg, .planasa-select-attribute input[disabled="disabled"] + label svg {
+    opacity: .2 !important;
+}
+.planasa-attribute .planasa-select-attribute input[type="checkbox"]:checked + label svg {
+    opacity: 1 !important;
+}
+.planasa-attribute .planasa-select-attribute input[type="checkbox"]:checked + label svg, .planasa-attribute .planasa-select-attribute input[type="checkbox"]:hover + label svg {
+    filter: brightness(100);
+}
+.botones-mapa {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    display: flex;
+}
+#zoom-mapa button.btn-zoom {
+    border: 1pt solid #0000001A;
+    outline: none;
+    background: #ffffff80;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 300;
+    border-radius: 0!important;
+    cursor:pointer;
+    outline: none;
+    color: #00000099;
+    position:relative;
+    padding: 0;
+}
+#zoom-mapa button.btn-zoom span{
+    width:100%;
+    height:100%;
+}
+button.btn-zoom.zoom-plus span:before, button.btn-zoom.zoom-minus span:before {
+    position:absolute;
+    content:'';
+    height: 2px;
+    left: calc(50% - 8px);
+    top: calc(50% );
+    width: 16px;
+    background:#00000099;
+}
+button.btn-zoom.zoom-plus span:after {
+    position:absolute;
+    content:'';
+    height: 16px;
+    left: calc(50% - 1px);
+    top: calc(50% - 8px);
+    width: 1.8px;
+    background:#00000099;
+}
+
+html[lang="de-DE"] .planasa-title-text {
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* Banner */
+.planasa-sin-resultados {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.planasa-sin-resultados-wrap {
+    display: flex;
+    padding: 10px 20px;
+    border: 1pt solid #0000001A;
+    height: calc(50% - 6px);
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-sin-resultado {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+span.sin-resultado-titulo {
+    color: #000;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+span.sin-resultado-txt {
+    color: #000;
+    font-weight: 300;
+    font-size: 13px;
+}
+@media screen and (max-width:1580px){
+    .planasa-zone-recomendations svg {
+        height: 60px;
+        width: 15px;
+    }
+    .planasa-zone-recomendations {
+        font-size: 9px;
+        line-height: 9px;
+    }
+    .planasa-products-button, .planasa-products-botonera label {
+        font-size: 15px !important;
+    }
+    .planasa-title .planasa-title-text:before {
+        height: 29px !important;
+    }
+    .planasa-title-number {
+        font-size: 45px;
+        line-height: 35px;
+    }
+    .planasa-title-text {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .zone-text-title {
+        font-size: 15px;
+    }
+    .planasa-zone-text {
+        font-size: 10px;
+    }
+    .planasa-zone-more {
+        font-size: 10px;
+    }
+    .planasa-zone-more span {
+        width: 50px;
+    }
+}
+@media screen and (max-width:1100px){
+    .planasa-zone-recomendations svg {
+        height: 50px;
+        width: 15px;
+    }
+    .planasa-zone-recomendations {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .planasa-title {
+        padding: 10px 2em;
+    }
+    .planasa-title-text {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .planasa-title-number {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .planasa-title .planasa-title-text:before {
+        bottom: 1px !important;
+        height: 25px !important;
+    }
+}
+@media screen and (max-width:1000px){
+    .planasa-zone-recomendations {
+        font-size: 8px;
+        line-height: 8px;
+    }
+    .planasa-zone-recomendations svg {
+        height: 60px;
+        width: 15px;
+    }
+    .planasa-zone-item.loading {
+        min-height: 200px;
+    }
+    .planasa-select-attribute label svg {
+        width: 100px;
+        height: 30px;
+    }
+    .planasa-main{
+        margin-top: 61px !important;
+        height: auto !important;
+    }
+    .planasa-title {
+        flex:unset;
+        height: 50px !important;
+    }
+    .planasa-title-text{
+        font-size: 20px;
+        line-height: 20px;
+        bottom: 0;
+    }
+    .planasa-title.visible-xs:before{
+        top: 50%;
+        display: block !important;
+        transform: translateY(-50%) rotate(90deg);
+    }
+    .active-tab.visible-xs:before {
+        transform: translateY(-50%);
+    }
+    .planasa-products-button, .planasa-products-botonera label span{
+        color: #00000066 !important;
+    }
+    .planasa-products-botonera input[type="radio"]:checked + label span, .planasa-products-botonera input[type="radio"]:hover + label span{
+        color: #fff !important;
+        opacity: 1 !important;
+    }
+    section.planasa-main {
+         flex-direction:column;
+         padding: 0;
+    }
+    .planasa-products, .planasa-zone, .planasa-attribute {
+        width: 100%;
+    }
+    .planasa-attribute, .planasa-carousel{
+        height: auto;
+    }
+    .planasa-container {
+        width: 100%;
+        flex-direction:column;
+        margin: 0 0 0 0;
+        display: flex;
+    }
+    .planasa-products-botonera, .planasa-select-attribute{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+    .planasa-products-button, .planasa-products-botonera label, .planasa-select-attribute label {
+        height: auto;
+        cursor: pointer;
+        padding: 15px;
+        margin: 10px 20px;
+        width: calc(30% - 40px);
+        border-radius: 50px;
+        border: 1px solid #00000033;
+        box-shadow: 0 3px 6px #00000029;
+        height: 60px;
+        display: inline-block;
+        text-align: center;
+    }
+    .planasa-active .planasa-title .planasa-title-text:before, .planasa-title .planasa-title-text:before{
+        content: unset;
+    }
+    .planasa-title-text{
+        display: inline;
+        padding: 0;
+    }
+    .planasa-title-number{
+        font-size: 20px;
+        line-height: 16.5px;
+        font-weight: 400;
+    }
+    .planasa-products-botonera input[type="radio"]:checked + label, .planasa-products-botonera input[type="radio"]:hover + label{
+        border:0;
+    }
+    .planasa-products-botonera input[type="radio"]:checked + label .planasa-products-name, .planasa-products-botonera input[type="radio"]:hover + label .planasa-products-name{
+        display: block;
+        color: #fff;
+    }
+    .planasa-products-botonera input[type="radio"]:checked + label .planasa-icon, .planasa-products-botonera input[type="radio"]:hover + label .planasa-icon{
+        display: none;
+    }
+    .planasa-zone-bg {
+        height: 50vh;
+    }
+
+    .visible-xs {
+        cursor: pointer;
+    }
+    .collapsible__block_content {
+        display: none;
+    }
+    .toogleCollapsible{
+        margin-bottom: 5px;
+    }
+    .planasa-carousel .owl-carousel{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(calc(200px), 1fr));
+        grid-gap: 3px;
+    }
+    .planasa-zone-link{
+        height: 180px;
+    }
+    .planasa-modales {
+        position: absolute;
+        height: auto;
+        right: unset;
+        left: 0;
+        bottom: 0;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .planasa-zone .planasa-title.active-tab{
+        margin-bottom: 0;
+    }
+    .planasa-sin-resultados {
+        height: unset;
+    }
+}
+@media screen and (max-width:690px){
+    .planasa-products-button, .planasa-products-botonera label, .planasa-select-attribute label {
+        margin: 10px 5px;
+        width: calc(50% - 15px);
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .planasa-carousel .owl-carousel {
+        grid-template-columns: repeat(auto-fill, minmax(calc(49%), 1fr));
+    }
+    .planasa-zone-more {
+        font-size: 10px;
+        display: inline-flex;
+        align-items: center;
+        color: #fff;
+        justify-content: flex-end;
+        margin-left: -3px;
+    }
+    .planasa-zone-more svg{
+        margin-left: -15px;
+    }
+
+    .planasa-sin-resultados-wrap {
+        display: flex;
+        flex-direction: column;       
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 20px;
+    }
+    .texto-sin-resultado {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

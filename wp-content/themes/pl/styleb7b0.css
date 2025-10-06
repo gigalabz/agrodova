@@ -1,0 +1,783 @@
+/*
+Theme Name: Planasa Theme
+Description: Planasa
+Theme URI:   https://dossetenta.com
+Author: DS
+Author URI:  https://dossetenta.com
+Template: salient
+Version: 1.0
+*/
+
+@import "ale.css";
+@import "custom.css";
+@import "sebas.css";
+@import "diana.css";
+@import "fide.css";
+@import "key.css";
+
+.title-green{color:#3f9c35;font-size:70px;font-family:'plsa'!important}
+/* GENERAL STYLES */
+@font-face {
+    font-family: 'plsa';
+    src: url('fonts/DINOT-Medium.eot');
+    src: url('fonts/DINOT-Mediumd41d.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DINOT-Medium.woff2') format('woff2'),
+        url('fonts/DINOT-Medium.woff') format('woff'),
+        url('fonts/DINOT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'plsa';
+    src: url('fonts/DINOT-Light.eot');
+    src: url('fonts/DINOT-Lightd41d.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DINOT-Light.woff2') format('woff2'),
+        url('fonts/DINOT-Light.woff') format('woff'),
+        url('fonts/DINOT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{font-family:'plsa'}
+/* Responsive Modales página ESG */
+@media (max-width:1680px) {
+#text_Modal1{margin-top:-25px;font-size:25px!important;padding-left:0!important}
+#text_Modal2{font-size:40px!important;padding-left:0!important}
+#text_Modal3{padding-left:0!important;padding-right:45px!important}
+}
+/*Modal tablet*/
+@media only screen and (max-width: 998px) {
+#prueba_popup .inner-wrap .using-image{background-position-x:-230px!important}
+}
+/*Modal tablet - mobile*/
+@media only screen and (max-width: 722px) {
+.page-id-3154 .custom-modal,.page-id-2932 .custom-modal,.page-id-3081 .custom-modal,.page-id-3646 .custom-modal,.page-id-3227 .custom-modal,.page-id-60 .custom-modal,.page-id-2932 .custom-modal{min-width:280px!important}
+#text_Modal1{margin-top:-25px;font-size:20px!important;padding-left:0!important}
+#text_Modal2{font-size:25px!important;padding-left:0!important}
+#text_Modal3{margin-top:-20px!important;padding-left:0!important;padding-right:0!important;font-size:16px!important}
+}
+/* Cookies */
+#moove_gdpr_cookie_info_bar.moove-gdpr-light-scheme{border-top:0!important}
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content p,#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content p a{font-size:13px}
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content p a,#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button{color:#3F9C35}
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton,#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton{border-radius:50px!important;font-size:13px}
+#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content .moove-gdpr-branding-cnt{display:none}
+.gdpr_lightbox{z-index:9999!important}
+#moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v1 .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton,#moove_gdpr_cookie_modal .moove-gdpr-modal-content.moove_gdpr_modal_theme_v1 .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton{border-radius:100px!important;box-shadow:rgba(0,0,0,0.2) 0 3px 6px!important;-webkit-transition:opacity .45s cubic-bezier(0.25,1,0.33,1),transform .45s cubic-bezier(0.25,1,0.33,1),border-color .45s cubic-bezier(0.25,1,0.33,1),color .45s cubic-bezier(0.25,1,0.33,1),background-color .45s cubic-bezier(0.25,1,0.33,1),box-shadow .45s cubic-bezier(0.25,1,0.33,1);transition:opacity .45s cubic-bezier(0.25,1,0.33,1),transform .45s cubic-bezier(0.25,1,0.33,1),border-color .45s cubic-bezier(0.25,1,0.33,1),color .45s cubic-bezier(0.25,1,0.33,1),background-color .45s cubic-bezier(0.25,1,0.33,1),box-shadow .45s cubic-bezier(0.25,1,0.33,1)}
+#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton:hover,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green:hover{transform:translateY(-3px);-webkit-transform:translateY(-3px);box-shadow:0 20px 38px rgba(0,0,0,0.16)!important;color:#fff!important;background-color:#3F9C35!important}
+#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon{display:block;width:40px!important;height:40px!important}
+#moove_gdpr_save_popup_settings_button{background-color:#3F9C35!important;cursor:pointer}
+#moove_gdpr_save_popup_settings_button span.moove_gdpr_icon svg{height:24px!important;width:auto;max-width:24px!important;max-height:24px!important}
+#moove_gdpr_save_popup_settings_button{height:32px!important}
+#moove_gdpr_save_popup_settings_button span.moove_gdpr_icon{line-height:24px!important;font-size:24px!important;min-width:32px!important;height:32px!important}
+#moove_gdpr_save_popup_settings_button span.moove_gdpr_text{display:none!important}
+#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close.focus-g i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close.focus-g span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close:hover i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close:hover span.gdpr-icon{background-color:#3F9C35!important}
+.gdpr-icon.moovegdpr-arrow-close:after,.gdpr-icon.moovegdpr-arrow-close:before{background-color:#fff!important}
+#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content a{font-weight:300!important;text-decoration-thickness:1px!important}
+#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close{top:-20px!important;right:-20px!important;width:40px!important;height:40px!important;line-height:40px!important}
+@media screen and (min-width: 768px) {
+#moove_gdpr_cookie_modal .moove-gdpr-modal-content{width:65vw!important;min-height:520px!important}
+}
+@media (max-width: 767px) {
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content .moove-gdpr-button-holder{align-items:center;justify-content:center}
+}
+/* GENERAL STYLES */
+header .menu-item.menu-item-wpml-ls-36-pe > a:hover > span{background-color:unset!important}
+body div#contactanos-nursery-pe .frm_checkbox label,body div#contactanos-nursery-pe .frm_checkbox label >a,body div#contactanos-nursery-mx .frm_checkbox label,body div#contactanos-nursery-mx .frm_checkbox label >a{color:#555!important}
+.page-id-41 .swiper-slide .content h2,.page-id-2377 .swiper-slide .content h2,.page-id-2885 .swiper-slide .content h2,.page-id-3057 .swiper-slide .content h2,.page-id-3237 .swiper-slide .content h2,.page-id-3224 .swiper-slide .content h2,.page-id-3624 .swiper-slide .content h2,.page-id-3625 .swiper-slide .content h2,.page-id-3626 .swiper-slide .content h2,.page-id-3610 .swiper-slide .content h2,.page-id-3627 .swiper-slide .content h2,.page-id-3010 .swiper-slide .content h2{color:#fff!important}
+.page-id-41 .swiper-slide .content h2:before,.page-id-2377 .swiper-slide .content h2:before,.page-id-2885 .swiper-slide .content h2:before,.page-id-3057 .swiper-slide .content h2:before,.page-id-3137 .swiper-slide .content h2:before,.page-id-3224 .swiper-slide .content h2:before,.page-id-3625 .swiper-slide .content h2:before,.page-id-3626 .swiper-slide .content h2:before,.page-id-3610 .swiper-slide .content h2:before,.page-id-3627 .swiper-slide .content h2:before,.page-id-3010 .swiper-slide .content h2:before{background:#fff!important}
+.box-rd,.box-rd-rigth{display:flex!important;justify-content:center!important;min-height:350px!important;align-items:center;padding:30px}
+.box-rd p{margin-left:80px;text-align:center;font-size:14px;font-weight:400!important}
+.box-rd img,.box-rd-rigth img{width:400px!important}
+.box-rd-rigth p{margin-right:80px;text-align:center;font-size:14px;font-weight:400!important}
+.box-rd p,.box-rd-rigth p{color:#000!important;font-family:'plsa'!important}
+#slide-out-widget-area.slide-out-from-right-hover[data-dropdown-func=separate-dropdown-parent-link] .inner>div.off-canvas-menu-container li.account-menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-has-children.nectar-regular-menu-item.areacliente-logout {
+display:none!important
+}
+body #slide-out-widget-area.slide-out-from-right-hover .inner .off-canvas-menu-container li.wpml-ls-item a {
+    padding: 18px!important;
+}
+.icon-salient-m-user:before{display:none}
+
+/* Cookies */ 
+aside#moove_gdpr_cookie_info_bar {
+    height:100vh;
+    max-height:100%;
+    z-index: 9999!important;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    background-color:#0000009c !important;
+    border-top:none!important
+}
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container {
+    position: absolute!important;
+    width:35%;
+    background:#fff;
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    padding:40px 50px!important;
+}
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content {
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding:0;
+}
+.moove-gdpr-cookie-notice {
+    margin-bottom:20px;
+}
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content .moove-gdpr-button-holder {
+    padding:0;
+    padding-left: 0!important;
+    flex-wrap:wrap;
+}
+.gdpr_lightbox{
+    background-color: #0000009c!important;
+}
+#moove_gdpr_cookie_info_bar:not(.moove-gdpr-info-bar-hidden) ~ .gdpr_lightbox.gdpr_lightbox-opened{
+    background-color: transparent!important;
+}
+.gdpr_lightbox-container, .gdpr_lightbox-wrap {
+    z-index: 10002!important;
+}
+
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content{
+    padding:0!important;
+    align-items: flex-start!important;
+}
+@media screen and (min-width:1000px) {
+#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton, #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton{
+    min-width: 145px!important;
+}
+}
+@media screen and (max-width:1000px) {
+    #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container {
+        width:80%;
+    }
+}
+@media screen and (max-width:690px) {
+#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container {
+        padding:20px 25px!important;
+    }
+    #moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content .moove-gdpr-button-holder {
+        justify-content:center
+    }
+}
+@media (max-width: 767px){
+    #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content {
+        height: auto!important;
+    }
+
+    #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content:before {
+        bottom: 100%!important;
+    }
+    div#third_party_cookies {
+        margin-bottom: 22px;
+    }
+    #moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder{
+        justify-content: center!important;
+    }
+
+}
+/* Mexico slider especial */
+.mx-viveros-slide-ordenador .slide-bg-wrap .image-bg{
+    background-image: url(../../uploads/2023/12/Cabeceras_web_1920X770PX_6_11_12_23_v2.jpg)!important;
+}
+.mx-viveros-slide-responsive .slide-bg-wrap .image-bg{
+    background-image: url(../../uploads/2023/12/Cabeceras_web_375X539PX_6_11_12_23.jpg)!important;
+}
+.mx-slide-innovation-ordenador .slide-bg-wrap .image-bg{
+    background-image: url(../../uploads/2023/12/Cabeceras_web_1920X770PX_4_11_12_23_v2.jpg)!important;
+}
+.mx-slide-innovation-responsive .slide-bg-wrap .image-bg{
+    background-image: url(../../uploads/2023/12/Cabeceras_web_375X539PX_4_11_12_23.jpg)!important;
+}
+
+/* USA slider special */
+
+.us-viveros-slide-ordenador .slide-bg-wrap .image-bg{
+    background-image: url(../../uploads/2024/07/PLANASA_CABECERA_WEB_DESKTOP_Macdoel-5_1920X770PX-1.jpg)!important;
+}
+.us-viveros-slide-responsive .slide-bg-wrap .image-bg{
+    background-image: url(../../uploads/2024/07/PLANASA_CABECERA_WEB_MOBILE_Macdoel-5_375X539PX-1.jpg)!important;
+}
+
+
+/*************************** LANDING AGUACATE ****************************************************/
+/* Avocado Nursery Section */
+.avocado-nursery-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+	margin-top: 5%;
+}
+
+.avocado-nursery-title {
+    border-left: 3px solid #3f9c35;
+    padding-left: 11px;
+    font-family: 'plsa';
+    /*color: green;*/
+	color:#3f9c35!important;
+    margin: 0;
+    font-weight: 200;
+    line-height: 1;
+    font-size: 60px;
+}
+
+.avocado-nursery-text {
+    margin-left: 5%;
+    color: #666;
+    /*font-family: Arial, sans-serif;*/
+	font-family: 'plsa';
+    line-height: 1.5;
+    margin-right: 15%;
+    width: 100%;
+}
+
+
+/*Varieties*/
+
+.varieties-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*gap: 10px;*/
+    
+}
+
+.varieties-title {
+    color: #3f9c35;
+    font-size: 30px;
+	margin-right:5px;
+}
+
+.varieties-list {
+    font-size: 24px;
+	margin-top:6px;
+    color: black;
+	font-weight: 300;
+}
+
+
+
+/* Product Section */
+.section-product-title {
+    /*font-family: Arial, sans-serif;*/
+	font-family:'plsa'!important;
+    font-size: 50px;
+    font-weight: 400;
+    /*color: #2e7d32;*/
+	color: #3f9c35;
+    line-height: 1.2;
+    border-left: 5px solid #3f9c35;
+    padding-left: 10px;
+}
+
+.section-product {
+    display: flex;
+    align-items: center;
+}
+
+.section-product-image {
+    max-width: 50px !important;
+    height: auto;
+    margin-right: 25px;
+}
+
+.section-product-text {
+    font-size: 16px;
+    margin: 0;
+}
+
+.highlight-green {
+    color: #3f9c35;
+}
+
+/* Plant Section */
+.section-plant {
+    display: flex;
+    align-items: center;
+}
+
+.section-plant-image {
+    width: 50px;
+    height: auto;
+    margin-right: 25px;
+}
+
+.section-plant-text {
+    font-size: 16px;
+    margin: 0;
+}
+
+.section-planting-date {
+    display: flex;
+    align-items: center;
+  /*  gap: 25px;*/
+}
+
+.section-planting-date-image {
+    width: 20px;
+    height: auto;
+	margin-right:25px;
+}
+
+.section-planting-date-text {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.highlight-black {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Density Section */
+.section-density {
+    display: flex;
+    align-items: center;
+   /* gap: 25px;*/
+}
+
+.section-density-image {
+    width: 20px;
+    height: auto;
+	margin-right:25px;
+}
+
+.section-density-text {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+}
+
+/* Avocado Section */
+.avocado-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  /*  gap: 20px;*/
+    padding: 20px;
+    max-width: 100%; 
+    height: auto;
+   /* object-fit: cover; */
+}
+
+
+/* Order Section */
+.section-orders-title {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #2e7d32;
+    line-height: 1.2;
+    border-left: 5px solid #2E7D32;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.section-order-text {
+    font-size: 16px;
+    color: #666;
+    margin-right: 30px;
+    line-height: 1.5;
+}
+
+/* Button/Form Section */
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.custom-button {
+    padding: 14px 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'plsa', Arial, sans-serif;
+    color: #00000099;
+    background-color: #FBF9CE;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*Form*/
+/* Container */
+.advice-container {
+    background-color: #FFFACD;
+    padding: 15px 25px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr auto;
+    gap: 15px;
+}
+
+/* Title */
+.advice-title h4 {
+    text-align: left;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Formulario */
+.advice-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Estilo para los campos de entrada */
+.input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333; /* Color del texto dentro del campo */
+    background-color: #fdfdf5;
+}
+
+/* Cambia el color del placeholder */
+.input-field::placeholder {
+    color: #888; /* Cambia a un gris oscuro para mejor visibilidad */
+    font-style: italic; /* Opcional: agrega estilo para diferenciarlo */
+}
+
+
+.form-hint {
+    font-size: 10px;
+    color: #3f9c35;
+    margin-top: 3px;
+}
+
+.form-terms {
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: black;
+}
+
+.form-terms a {
+    color: black;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+/* Botón */
+.advice-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button {
+    padding-left: 40px;
+    padding-right: 40px; 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 100px;
+    font-family: 'plsa', Arial, sans-serif;
+    background-color: #3f9c35;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+/* Responsive Styles for Tablet Landscape */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* First Section (Responsive) */
+    .avocado-nursery-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .avocado-nursery-title {
+        font-size: 36px;
+        line-height: 1.2;
+        margin: 0;
+       color: #3f9c35;
+    }
+    
+    .avocado-nursery-text {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        margin: 0 auto;
+        width: 50%;
+    }
+    
+
+
+    /* Reduce font size for titles */
+    .section-product-title,
+    .section-orders-title {
+        font-size: 40px; 
+    }
+
+    /* Adjust text width */
+    .section-order-text {
+        width: 90%; 
+        font-size: 16px; 
+    }
+
+    /* Align density text */
+    .section-density-text {
+        text-align: center; 
+    }
+
+    /* Order Section (Responsive) */
+    .section-order-text {
+        margin-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    /* First Section (Responsive - Tablet Portrait) */
+    .avocado-nursery-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .avocado-nursery-title {
+        font-size: 40px; /* Reducir el tamaño en tablets normales */
+        margin-bottom: 15px;
+        color: #3f9c35;
+    }
+    
+    .avocado-nursery-text {
+        margin: 0;
+        width: 90%; /* Ajustar el ancho del texto */
+        font-size: 16px; /* Tamaño más pequeño para mejor legibilidad */
+    }
+    
+    .avocado-row {
+        width: 100%; /* Ajusta al ancho completo del contenedor */
+        max-width: 800px; /* Limita el ancho máximo */
+        max-height: 600px; /* Limita el alto máximo para evitar que crezca demasiado */
+        height: auto; /* Mantiene la proporción al ajustar el ancho */
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+        display: block; /* Asegura que sea un bloque */
+        object-fit: contain; /* Ajusta la imagen dentro del espacio sin distorsión */
+        margin-right:35%;
+    }
+    
+    .section-orders-title{
+        margin-top:20%;
+    }
+    
+    .button{
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    /* Contenedor principal */
+    .advice-container {
+        grid-template-columns: 1fr; /* Solo una columna en móviles */
+        padding: 15px; /* Espaciado interno */
+        gap: 15px; /* Espacio entre elementos */
+        margin-right:10%;
+    }
+
+    /* Título */
+    .advice-title {
+        text-align: center; /* Centra el título */
+    }
+
+    .advice-title h4 {
+        font-size: 18px; /* Tamaño de fuente más pequeño */
+        margin-bottom: 10px; /* Espacio inferior */
+    }
+
+    /* Formulario */
+    .advice-form {
+        display: flex;
+        flex-direction: column; /* Apila los campos verticalmente */
+        gap: 10px; /* Espacio entre campos */
+    }
+
+    .form-field {
+        width: 100%; /* Asegura que los inputs ocupen todo el ancho */
+    }
+
+    .input-field {
+        width: 100%; /* Inputs ocupan todo el ancho disponible */
+        padding: 12px; /* Más espacio interno */
+        font-size: 14px; /* Tamaño del texto dentro del input */
+    }
+
+    .form-hint {
+        font-size: 12px; /* Texto de ayuda más pequeño */
+        color: #333; /* Cambia a un color más visible */
+        text-align: left; /* Alinea el texto a la izquierda */
+        margin-top: 5px; /* Espacio superior */
+    }
+
+    /* Términos y condiciones */
+    .form-terms {
+        font-size: 12px; /* Tamaño de texto pequeño */
+        line-height: 1.5; /* Espaciado entre líneas */
+        text-align: left; /* Alinea a la izquierda */
+    }
+
+    .form-terms input {
+        margin: 0 5px 0 0; /* Ajusta el espacio entre el checkbox y el texto */
+    }
+
+    /* Botón de envío */
+    .advice-button {
+        display: flex;
+        justify-content: center; /* Centra el botón */
+    }
+
+    .submit-button {
+        width: 100%; /* Botón ocupa todo el ancho */
+        max-width: 250px; /* Limita el ancho máximo */
+        padding: 12px; /* Ajusta el padding */
+        font-size: 16px; /* Tamaño del texto */
+        margin-top: 10px; /* Espacio superior */
+    }
+    
+    .section-orders-title{
+        margin-top:0;
+    }
+    
+    
+    /*Products*/
+    
+    .section-container {
+        display: flex;
+        flex-direction: column; /* Alinea todo en columna */
+        align-items: center; /* Centra los elementos */
+        padding: 10px;
+        gap: 20px;
+    }
+
+    /* Título principal */
+    .section-title {
+        font-size: 24px; /* Reduce el tamaño del título */
+        line-height: 1.2;
+        text-align: center;
+        border-left: none; /* Elimina la línea verde */
+    }
+
+    /* Contenido de texto */
+    .section-text {
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: center;
+        margin: 0 auto;
+        width: 90%; /* Ajusta el ancho */
+    }
+
+    /* Sección de Planting Date */
+    .section-planting-date {
+        display: flex;
+        flex-direction: column; /* Alinea en columna */
+        align-items: center;
+        text-align: center;
+        gap: 10px; /* Espacio entre icono y texto */
+    }
+
+    .section-planting-date-image {
+        width: 50px; /* Ajusta el tamaño del icono */
+        height: auto; /* Mantiene proporción */
+    }
+
+    .section-planting-date-text {
+        font-size: 14px; /* Ajusta el tamaño del texto */
+        line-height: 1.5; /* Mejora legibilidad */
+        text-align: center;
+    }
+
+    /* Sección Density */
+    .section-density {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .section-density-text {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    /* Títulos secundarios */
+    .section-product-title {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    /*Varieties*/
+    
+        .varieties-container {
+        display: flex; /* Mantén flexbox para el diseño */
+        flex-direction: column; /* Cambia a columna en móviles */
+        align-items: flex-start; /* Alinea todo a la izquierda */
+        gap: 10px; /* Espaciado entre el título y la lista */
+        padding: 10px 0; /* Espaciado interno */
+    }
+
+    .varieties-title {
+        font-size: 20px; /* Reduce ligeramente el tamaño del título */
+        text-align: left; /* Asegura alineación a la izquierda */
+        margin-bottom: 5px; /* Añade espacio debajo del título */
+    }
+
+    .varieties-list {
+        font-size: 18px; /* Ajusta el tamaño del texto de las variedades */
+        color: #333;
+        line-height: 1.5; /* Espaciado entre líneas */
+    }
+
+    .varieties-list span {
+        display: block; /* Muestra cada variedad en una línea separada */
+    }
+    
+}

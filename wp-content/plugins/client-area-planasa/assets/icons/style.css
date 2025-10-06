@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'AreaClientePlanasa';
+  src:  url('fonts/AreaClientePlanasa3388.eot?syfo9');
+  src:  url('fonts/AreaClientePlanasa3388.eot?syfo9#iefix') format('embedded-opentype'),
+    url('fonts/AreaClientePlanasa3388.ttf?syfo9') format('truetype'),
+    url('fonts/AreaClientePlanasa3388.woff?syfo9') format('woff'),
+    url('fonts/AreaClientePlanasa3388.svg?syfo9#AreaClientePlanasa') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="acpl-"], [class*=" acpl-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'AreaClientePlanasa' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.acpl-home:before {
+  content: "\e916";
+  color: #fff;
+}
+.acpl-pagination-left:before {
+  content: "\e913";
+  color: #969696;
+}
+.acpl-pagination-right:before {
+  content: "\e914";
+}
+.acpl-dot:before {
+  content: "\e912";
+  color: #fff;
+}
+.acpl-check-step:before {
+  content: "\e911";
+  color: #fff;
+}
+.acpl-circle-arrow-down:before {
+  content: "\e910";
+  color: #3f9c35;
+}
+.acpl-trash:before {
+  content: "\e90f";
+  color: #969696;
+}
+.acpl-checked:before {
+  content: "\e90d";
+  color: #3f9c35;
+}
+.acpl-pdf:before {
+  content: "\e90e";
+}
+.acpl-user:before {
+  content: "\e90c";
+  color: #3f9c35;
+}
+.acpl-search:before {
+  content: "\e90b";
+}
+.acpl-arrow-left:before {
+  content: "\e909";
+}
+.acpl-arrow-right:before {
+  content: "\e90a";
+}
+.acpl-play-button:before {
+  content: "\e908";
+  color: #f5f5f5;
+}
+.acpl-close:before {
+  content: "\e907";
+  color: rgba(0, 0, 0, 0.6);
+}
+.acpl-mail:before {
+  content: "\e904";
+  color: #4d4d4d;
+}
+.acpl-llamar:before {
+  content: "\e905";
+  color: #4d4d4d;
+}
+.acpl-mensaje:before {
+  content: "\e906";
+}
+.acpl-ojito:before {
+  content: "\e903";
+}
+.acpl-back:before {
+  content: "\e900";
+  color: #4b4b4b;
+}
+.acpl-warning:before {
+  content: "\e901";
+  color: #3f9c35;
+}
+.acpl-info:before {
+  content: "\e902";
+}
+.acpl-descargar:before {
+  content: "\e915";
+  color: #c4c3c3;
+}
