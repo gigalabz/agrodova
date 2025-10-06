@@ -24,11 +24,30 @@
       <div id="nav_menu-2" class="widget widget_nav_menu">
         <div class="menu-legal-en-container">
           <ul id="menu-legal-en" class="menu"
-              style="display:flex; gap:24px; list-style:none; margin:0; padding:0; flex-wrap:wrap;">
-            <li style="display:inline;"><a href="legal-notice/index.html" style="color:#222 !important; text-decoration:none; font-weight:600;">LEGAL NOTICE</a></li>
-            <li style="display:inline;"><a href="privacy-policy/index.html" style="color:#222 !important; text-decoration:none; font-weight:600;">PRIVACY POLICY</a></li>
-            <li style="display:inline;"><a href="cookies-policy/index.html" style="color:#222 !important; text-decoration:none; font-weight:600;">COOKIES POLICY</a></li>
-          </ul>
+    style="
+      display:flex!important;
+      flex-wrap:nowrap!important;
+      align-items:center;
+      gap:16px;
+      list-style:none;
+      margin:0;
+      padding:0;
+      white-space:nowrap;
+      overflow-x:auto;
+      -webkit-overflow-scrolling:touch;
+      scrollbar-width:none; /* Firefox */
+    ">
+  <li style="display:inline-flex!important; flex:0 0 auto; white-space:nowrap; line-height:1.2;">
+    <a href="legal-notice/index.html" style="color:#222!important; text-decoration:none; font-weight:600; font-size:14px;">LEGAL NOTICE</a>
+  </li>
+  <li style="display:inline-flex!important; flex:0 0 auto; white-space:nowrap; line-height:1.2;">
+    <a href="privacy-policy/index.html" style="color:#222!important; text-decoration:none; font-weight:600; font-size:14px;">PRIVACY POLICY</a>
+  </li>
+  <li style="display:inline-flex!important; flex:0 0 auto; white-space:nowrap; line-height:1.2;">
+    <a href="cookies-policy/index.html" style="color:#222!important; text-decoration:none; font-weight:600; font-size:14px;">COOKIES POLICY</a>
+  </li>
+</ul>
+
         </div>
       </div>
     </div>
@@ -98,7 +117,7 @@
 
 <a id="to-top" href="#"><i class="fa fa-angle-up"></i></a></div></div>
 
-<aside id="moove_gdpr_cookie_info_bar" class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-light-scheme gdpr_infobar_postion_bottom" aria-label="GDPR Cookie Banner" style="display: none;">
+<aside id="moove_gdpr_cookie_info_bar" class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-light-scheme gdpr_infobar_postion_bottom d-none" aria-label="GDPR Cookie Banner" style="display: none;">
   <div class="moove-gdpr-info-bar-container">
     <div class="moove-gdpr-info-bar-content">
       <script type="text/html" id="wpb-modifications"></script>
