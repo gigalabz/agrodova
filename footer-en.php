@@ -122,7 +122,7 @@
     <div class="moove-gdpr-info-bar-content">
       <script type="text/html" id="wpb-modifications"></script>
       <link rel="stylesheet" type="text/css" href="wp-content/cache/wpfc-minified/fsoqb4ss/bt9yw.css" media="all"/>
-      <button data-href="#moove_gdpr_cookie_modal" aria-haspopup="true"  id="moove_gdpr_save_popup_settings_button" style='display: none;' class="" aria-label="Change cookie settings">
+      <!-- <button data-href="#moove_gdpr_cookie_modal" aria-haspopup="true"  id="moove_gdpr_save_popup_settings_button" style='display: none;' class="" aria-label="Change cookie settings">
         <span class="moove_gdpr_icon">
           <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="max-width: 30px; max-height: 30px;">
             <g data-name="1">
@@ -132,8 +132,8 @@
           </svg>
         </span>
         <span class="moove_gdpr_text">Change cookie settings</span>
-      </button>
-      <dialog id="moove_gdpr_cookie_modal" class="gdpr_lightbox-hide" aria-modal="true" aria-label="GDPR Settings Screen">
+      </button> -->
+      <!-- <dialog id="moove_gdpr_cookie_modal" class="gdpr_lightbox-hide" aria-modal="true" aria-label="GDPR Settings Screen">
         <div class="moove-gdpr-modal-content moove-clearfix logo-position-left moove_gdpr_modal_theme_v1">
           <button class="moove-gdpr-modal-close" autofocus aria-label="Close GDPR Cookie Settings">
             <span class="gdpr-sr-only">Close GDPR Cookie Settings</span>
@@ -240,7 +240,7 @@
           </div>
           <div class="moove-clearfix"></div>
         </div>
-      </dialog>
+      </dialog> -->
 
       <noscript id="wpfc-google-fonts"><link rel='stylesheet' id='nectar_default_font_open_sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&amp;subset=latin%2Clatin-ext&amp;display=swap' type='text/css' media='all'/></noscript>
 
