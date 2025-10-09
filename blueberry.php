@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 24px;
-    margin: 0;
+    margin-top: 30px;
     padding: 0;
     list-style: none;
   "
@@ -46,7 +46,7 @@
           alt=""
           decoding="async"
           fetchpriority="high"
-          srcset="https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-300x300.jpg 300w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-150x150.jpg 150w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-768x768.jpg 768w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-100x100.jpg 100w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-140x140.jpg 140w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-500x500.jpg 500w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-350x350.jpg 350w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3.jpg 800w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-600x600.jpg 600w"
+          src="https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-300x300.jpg 300w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-150x150.jpg 150w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-768x768.jpg 768w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-100x100.jpg 100w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-140x140.jpg 140w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-500x500.jpg 500w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-350x350.jpg 350w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3.jpg 800w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemanila-3-600x600.jpg 600w"
           sizes="(max-width: 300px) 100vw, 300px"
           style="width:100%; height:100%; object-fit:cover; display:block;"
         />
@@ -58,7 +58,7 @@
     </div>
     <div class="pl-titles-loop"
       style="position:absolute; left:12px; right:12px; bottom:12px; z-index:2; color:#fff; display:flex; flex-direction:column; gap:2px; pointer-events:none; text-shadow:0 2px 6px rgba(0,0,0,0.45);">
-      <h2 class="woocommerce-loop-product__title" style="margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Manila</h2>
+      <h2 class="woocommerce-loop-product__title" style=" color:yellow;margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Manila</h2>
       <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plablue 1545</span>
     </div>
   </li>
@@ -73,7 +73,7 @@
         <img width="300" height="300"
           src="wp-content/uploads/2022/03/cuadrado-bluemadeira-3-300x300.jpg"
           class="attachment-medium size-medium" alt="" decoding="async"
-          srcset="https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-300x300.jpg 300w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-150x150.jpg 150w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-768x768.jpg 768w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-100x100.jpg 100w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-140x140.jpg 140w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-500x500.jpg 500w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-350x350.jpg 350w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3.jpg 800w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-600x600.jpg 600w"
+          src="https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-300x300.jpg 300w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-150x150.jpg 150w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-768x768.jpg 768w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-100x100.jpg 100w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-140x140.jpg 140w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-500x500.jpg 500w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-350x350.jpg 350w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3.jpg 800w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemadeira-3-600x600.jpg 600w"
           sizes="(max-width: 300px) 100vw, 300px"
           style="width:100%; height:100%; object-fit:cover; display:block;"
         />
@@ -85,7 +85,7 @@
     </div>
     <div class="pl-titles-loop"
       style="position:absolute; left:12px; right:12px; bottom:12px; z-index:2; color:#fff; display:flex; flex-direction:column; gap:2px; pointer-events:none; text-shadow:0 2px 6px rgba(0,0,0,0.45);">
-      <h2 class="woocommerce-loop-product__title" style="margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Madeira</h2>
+      <h2 class="woocommerce-loop-product__title" style="color:yellow;margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Madeira</h2>
       <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plablue 1502</span>
     </div>
   </li>
@@ -100,7 +100,7 @@
         <img width="300" height="300"
           src="wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-300x300.jpg"
           class="attachment-medium size-medium" alt="" decoding="async"
-          srcset="https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-300x300.jpg 300w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-150x150.jpg 150w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-768x768.jpg 768w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-100x100.jpg 100w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-140x140.jpg 140w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-500x500.jpg 500w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-350x350.jpg 350w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3.jpg 800w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-600x600.jpg 600w"
+          src="https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-300x300.jpg 300w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-150x150.jpg 150w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-768x768.jpg 768w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-100x100.jpg 100w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-140x140.jpg 140w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-500x500.jpg 500w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-350x350.jpg 350w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3.jpg 800w, https://agrodova.es/wp-content/uploads/2022/03/cuadrado-bluemaldiva-3-600x600.jpg 600w"
           sizes="(max-width: 300px) 100vw, 300px"
           style="width:100%; height:100%; object-fit:cover; display:block;"
         />
@@ -112,7 +112,7 @@
     </div>
     <div class="pl-titles-loop"
       style="position:absolute; left:12px; right:12px; bottom:12px; z-index:2; color:#fff; display:flex; flex-direction:column; gap:2px; pointer-events:none; text-shadow:0 2px 6px rgba(0,0,0,0.45);">
-      <h2 class="woocommerce-loop-product__title" style="margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Maldiva</h2>
+      <h2 class="woocommerce-loop-product__title" style="margin:0; color:yellow; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Maldiva</h2>
       <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plablue 1542</span>
     </div>
   </li>
@@ -139,7 +139,7 @@
     </div>
     <div class="pl-titles-loop"
       style="position:absolute; left:12px; right:12px; bottom:12px; z-index:2; color:#fff; display:flex; flex-direction:column; gap:2px; pointer-events:none; text-shadow:0 2px 6px rgba(0,0,0,0.45);">
-      <h2 class="woocommerce-loop-product__title" style="margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Malibu</h2>
+      <h2 class="woocommerce-loop-product__title" style="margin:0; color:yellow; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Malibu</h2>
       <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plablue 15122</span>
     </div>
   </li>
@@ -166,7 +166,7 @@
     </div>
     <div class="pl-titles-loop"
       style="position:absolute; left:12px; right:12px; bottom:12px; z-index:2; color:#fff; display:flex; flex-direction:column; gap:2px; pointer-events:none; text-shadow:0 2px 6px rgba(0,0,0,0.45);">
-      <h2 class="woocommerce-loop-product__title" style="margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Marina</h2>
+      <h2 class="woocommerce-loop-product__title" style="margin:0; color:yellow; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Marina</h2>
       <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plablue 1549</span>
     </div>
   </li>
@@ -193,7 +193,7 @@
     </div>
     <div class="pl-titles-loop"
       style="position:absolute; left:12px; right:12px; bottom:12px; z-index:2; color:#fff; display:flex; flex-direction:column; gap:2px; pointer-events:none; text-shadow:0 2px 6px rgba(0,0,0,0.45);">
-      <h2 class="woocommerce-loop-product__title" style="margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Masirah</h2>
+      <h2 class="woocommerce-loop-product__title" style="margin:0; color:yellow; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Blue Masirah</h2>
       <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plablue 1525</span>
     </div>
   </li>
