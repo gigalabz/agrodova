@@ -32,11 +32,11 @@
         <img
           width="300"
           height="300"
-          src="https://agrodova.es/wp-content/uploads/2022/03/endibia-baby-scaled.jpeg"
+          src="https://agrodova.es/wp-content/uploads/2024/02/endibia-baby-scaled.jpeg"
           class="attachment-medium size-medium"
           alt=""
           decoding="async"
-          src="https://agrodova.es/wp-content/uploads/2022/03/endibia-baby-scaled.jpeg 300w, https://agrodova.es/wp-content/uploads/2022/03/endibia-baby-scaled.jpeg 621w"
+          src="https://agrodova.es/wp-content/uploads/2024/02/endibia-baby-scaled.jpeg 300w, https://agrodova.es/wp-content/uploads/2024/02/endibia-baby-scaled.jpeg 621w"
           sizes="(max-width: 300px) 100vw, 300px"
           style="width:100%; height:100%; object-fit:cover; display:block;"
         />
@@ -59,11 +59,11 @@
         <img
           width="300"
           height="300"
-          src="https://agrodova.es/wp-content/uploads/2024/02/endibia-friseline.jpg"
+          src="https://agrodova.es/wp-content/uploads/2024/02/endibia-friseline.jpeg"
           class="attachment-medium size-medium"
           alt=""
           decoding="async"
-          set="https://agrodova.es/wp-content/uploads/2024/02/endibia-friseline.jpg 300w, https://agrodova.es/wp-content/uploads/2024/02/endibia-friseline.jpg 800w"
+          set="https://agrodova.es/wp-content/uploads/2024/02/endibia-friseline.jpeg 300w, https://agrodova.es/wp-content/uploads/2024/02/endibia-friseline.jpeg 800w"
           sizes="(max-width: 300px) 100vw, 300px"
           style="width:100%; height:100%; object-fit:cover; display:block;"
         />
@@ -86,11 +86,11 @@
         <img
           width="300"
           height="300"
-          src="https://agrodova.es/wp-content/uploads/2024/02/endibia-roja.jpg"
+          src="https://agrodova.es/wp-content/uploads/2024/02/endibia-roja.jpeg"
           class="attachment-medium size-medium"
           alt=""
           decoding="async"
-          src="https://agrodova.es/wp-content/uploads/2024/02/endibia-roja.jpg 300w, https://agrodova.es/wp-content/uploads/2024/02/endibia-roja.jpg 800w"
+          src="https://agrodova.es/wp-content/uploads/2024/02/endibia-roja.jpeg 300w, https://agrodova.es/wp-content/uploads/2024/02/endibia-roja.jpeg 800w"
           sizes="(max-width: 300px) 100vw, 300px"
           style="width:100%; height:100%; object-fit:cover; display:block;"
         />
