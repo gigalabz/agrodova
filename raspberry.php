@@ -1,10 +1,10 @@
-<?php include 'header-en.php'; ?>
-
+<?php include('header-en.php'); ?>
 
 </div><div id="ajax-content-wrap">
-<div class="container-wrap" data-midnight="dark"><div class="container main-content"><div class="row"><div class="nectar-shop-header"><h1 class="page-title">Strawberry</h1><form class="woocommerce-ordering" method="get"> <select name="orderby" class="orderby" aria-label="Shop order" > <option value="menu_order" selected='selected'>Default sorting</option> <option value="popularity" >Sort by popularity</option> <option value="rating" >Sort by average rating</option> <option value="date" >Sort by latest</option> <option value="price" >Sort by price: low to high</option> <option value="price-desc" >Sort by price: high to low</option> </select> <input type="hidden" name="paged" value="1" /> </form> <p class="woocommerce-result-count" role="alert" aria-relevant="all"> Showing all 24 results</p> <nav class="woocommerce-breadcrumb" itemprop="breadcrumb"><span><a href="../../index.html">Home</a></span> <i class="fa fa-angle-right"></i> <span>Strawberry</span></nav></div><header class="woocommerce-products-header">
+<div class="container-wrap" data-midnight="dark"><div class="container main-content"><div class="row"><div class="nectar-shop-header"><h1 class="page-title">Raspberry</h1><form class="woocommerce-ordering" method="get"> <select name="orderby" class="orderby" aria-label="Shop order" > <option value="menu_order" selected='selected'>Default sorting</option> <option value="popularity" >Sort by popularity</option> <option value="rating" >Sort by average rating</option> <option value="date" >Sort by latest</option> <option value="price" >Sort by price: low to high</option> <option value="price-desc" >Sort by price: high to low</option> </select> <input type="hidden" name="paged" value="1" /> </form> <p class="woocommerce-result-count" role="alert" aria-relevant="all"> Showing all 6 results</p> <nav class="woocommerce-breadcrumb" itemprop="breadcrumb"><span><a href="../../index.html">Home</a></span> <i class="fa fa-angle-right"></i> <span>Raspberry</span></nav></div><header class="woocommerce-products-header">
 </header>
-<div class="cta-varieties"> <a class="nectar-button small regular accent-color regular-button pl-green-button" style="visibility: visible;" href="varieties" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Find your variety</span></a></div><div class="woocommerce-notices-wrapper"></div>
+<div class="cta-varieties"> <a class="nectar-button small regular accent-color regular-button pl-green-button" style="visibility: visible;" href="varieties" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Find your variety</span></a></div><div class="woocommerce-notices-wrapper"></div><ul class="products columns-4" data-n-lazy="1" data-rm-m-hover="off" data-n-desktop-columns="5" data-n-desktop-small-columns="3" data-n-tablet-columns="4" data-n-phone-columns="2" data-product-style="classic">
+
 
 <ul
   class="products-grid"
@@ -32,11 +32,11 @@
         <img
           width="300"
           height="300"
-          src="https://agrodova.es/wp-content/uploads/2024/07/Plared18009-300x300.jpg"
+          src="https://agrodova.es/wp-content/uploads/2024/07/PinkHudson.jpg"
           class="attachment-medium size-medium"
           alt=""
           decoding="async"
-          src="https://agrodova.es/wp-content/uploads/2024/07/Plared18009-300x300.jpg 300w, https://agrodova.es/wp-content/uploads/2024/07/Plared18009.jpg 621w"
+          src="https://agrodova.es/wp-content/uploads/2024/07/PinkHudson.jpg 300w, https://agrodova.es/wp-content/uploads/2024/07/PinkHudson.jpg 621w"
           sizes="(max-width: 300px) 100vw, 300px"
           style="width:100%; height:100%; object-fit:cover; display:block;"
         />
@@ -46,8 +46,8 @@
     <div class="pl-titles-loop"
          style="position:absolute; left:12px; right:12px; bottom:12px; z-index:4; color:#fff; pointer-events:none; text-shadow:0 2px 6px rgba(0,0,0,0.45);">
       <h2 class="woocommerce-loop-product__title"
-          style="color:yellow;margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Plared 18009</h2>
-      <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plared 18009</span>
+          style="color:yellow;margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Pink Hudson (WINTER)</h2>
+      <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plapink  14103</span>
     </div>
   </li>
 
@@ -59,11 +59,11 @@
         <img
           width="300"
           height="300"
-          src="https://agrodova.es/wp-content/uploads/2024/02/cuadrado-plared15121-1-1-300x300.jpg"
+          src="https://agrodova.es/wp-content/uploads/2024/07/PinkHudson.jpg"
           class="attachment-medium size-medium"
           alt=""
           decoding="async"
-          set="https://agrodova.es/wp-content/uploads/2024/02/cuadrado-plared15121-1-1-300x300.jpg 300w, https://agrodova.es/wp-content/uploads/2024/02/cuadrado-plared15121-1-1.jpg 800w"
+          set="https://agrodova.es/wp-content/uploads/2024/07/PinkHudson.jpg 300w, https://agrodova.es/wp-content/uploads/2024/07/PinkHudson.jpg 800w"
           sizes="(max-width: 300px) 100vw, 300px"
           style="width:100%; height:100%; object-fit:cover; display:block;"
         />
@@ -73,8 +73,8 @@
     <div class="pl-titles-loop"
          style="position:absolute; left:12px; right:12px; bottom:12px; z-index:4; color:#fff; pointer-events:none; text-shadow:0 2px 6px rgba(0,0,0,0.45);">
       <h2 class="woocommerce-loop-product__title"
-          style="color:yellow;margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">RedSayra</h2>
-      <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plared 15121</span>
+          style="color:yellow;margin:0; font-size:18px; line-height:1.2; font-weight:700; letter-spacing:.2px;">Pink Hudson</h2>
+      <span class="subtitle-pl-loop" style="font-size:13px; opacity:.92;">Plapink 14103</span>
     </div>
   </li>
 
