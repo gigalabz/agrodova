@@ -5,21 +5,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
 <style>img:is([sizes="auto" i], [sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}</style>
-<link rel="alternate" hreflang="en" href="index.html"/>
-<link rel="alternate" hreflang="es" href="es/index.html"/>
-<link rel="alternate" hreflang="x-default" href="index.html"/>
-<script data-no-defer="1" data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer data-cookieconsent="ignore">var ctPublicFunctions={"_ajax_nonce":"11f22ff8b3","_rest_nonce":"af7ae5d00b","_ajax_url":"\/wp-admin\/admin-ajax.php","_rest_url":"https:\/\/planasa.com\/wp-json\/","data__cookies_type":"none","data__ajax_type":"admin_ajax","data__bot_detector_enabled":0,"data__frontend_data_log_enabled":1,"cookiePrefix":"","wprocket_detected":false,"host_url":"planasa.com","text__ee_click_to_select":"Click to select the whole data","text__ee_original_email":"The complete one is","text__ee_got_it":"Got it","text__ee_blocked":"Blocked","text__ee_cannot_connect":"Cannot connect","text__ee_cannot_decode":"Can not decode email. Unknown reason","text__ee_email_decoder":"CleanTalk email decoder","text__ee_wait_for_decoding":"The magic is on the way!","text__ee_decoding_process":"Please wait a few seconds while we decode the contact data."}</script>
-<script data-no-defer="1" data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer data-cookieconsent="ignore">var ctPublic={"_ajax_nonce":"11f22ff8b3","settings__forms__check_internal":"0","settings__forms__check_external":"0","settings__forms__force_protection":0,"settings__forms__search_test":"1","settings__data__bot_detector_enabled":0,"settings__sfw__anti_crawler":0,"blog_home":"https:\/\/planasa.com\/","pixel__setting":"3","pixel__enabled":true,"pixel__url":"https:\/\/moderate8-v4.cleantalk.org\/pixel\/50470d72a3bf6b5561f76a4e58908f61.gif","data__email_check_before_post":"1","data__email_check_exist_post":0,"data__cookies_type":"none","data__key_is_ok":false,"data__visible_fields_required":true,"wl_brandname":"Anti-Spam by CleanTalk","wl_brandname_short":"CleanTalk","ct_checkjs_key":"9e6e19ddc4d270ff1b6591e96c6b8712c926cbf0eaefaa83f52155caf94b0faa","emailEncoderPassKey":"2bc9203ccc4fff8ac3cc7bc8adadaeb8","bot_detector_forms_excluded":"W10=","advancedCacheExists":true,"varnishCacheExists":false,"wc_ajax_add_to_cart":true,"theRealPerson":{"phrases":{"trpHeading":"The Real Person Badge!","trpContent1":"The commenter acts as a real person and verified as not a bot.","trpContent2":"Passed all tests against spam bots. Anti-Spam by CleanTalk.","trpContentLearnMore":"Learn more"},"trpContentLink":"https:\/\/cleantalk.org\/the-real-person?utm_id=&amp;utm_term=&amp;utm_source=admin_side&amp;utm_medium=trp_badge&amp;utm_content=trp_badge_link_click&amp;utm_campaign=apbct_links","imgPersonUrl":"https:\/\/planasa.com\/wp-content\/plugins\/cleantalk-spam-protect\/css\/images\/real_user.svg","imgShieldUrl":"https:\/\/planasa.com\/wp-content\/plugins\/cleantalk-spam-protect\/css\/images\/shield.svg"}}</script>
+<link rel="alternate" hreflang="en" href="index"/>
+<link rel="alternate" hreflang="es" href="es/index"/>
+<link rel="alternate" hreflang="x-default" href="index"/>
+<link rel="stylesheet" href="/wp-content/cache/wpfc-minified/20gds754/bt8z1.css" media="all">
+<link rel="stylesheet" href="/wp-content/cache/wpfc-minified/87cji31x/bt9lp.css" media="all">
+<link rel="stylesheet" href="/wp-content/cache/wpfc-minified/eu0u1hvg/bt9cu.css" media="all">
+<link rel="stylesheet" href="/wp-content/cache/wpfc-minified/lxudzyn3/bt8z1.css" media="all">
+
+
+
+<script data-no-defer="1" data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer data-cookieconsent="ignore">var ctPublicFunctions={"_ajax_nonce":"11f22ff8b3","_rest_nonce":"af7ae5d00b","_ajax_url":"\/wp-admin\/admin-ajax.php","_rest_url":"https:\/\/agrodova.es\/wp-json\/","data__cookies_type":"none","data__ajax_type":"admin_ajax","data__bot_detector_enabled":0,"data__frontend_data_log_enabled":1,"cookiePrefix":"","wprocket_detected":false,"host_url":"agrodova.es","text__ee_click_to_select":"Click to select the whole data","text__ee_original_email":"The complete one is","text__ee_got_it":"Got it","text__ee_blocked":"Blocked","text__ee_cannot_connect":"Cannot connect","text__ee_cannot_decode":"Can not decode email. Unknown reason","text__ee_email_decoder":"CleanTalk email decoder","text__ee_wait_for_decoding":"The magic is on the way!","text__ee_decoding_process":"Please wait a few seconds while we decode the contact data."}</script>
+<script data-no-defer="1" data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer data-cookieconsent="ignore">var ctPublic={"_ajax_nonce":"11f22ff8b3","settings__forms__check_internal":"0","settings__forms__check_external":"0","settings__forms__force_protection":0,"settings__forms__search_test":"1","settings__data__bot_detector_enabled":0,"settings__sfw__anti_crawler":0,"blog_home":"https:\/\/agrodova.es\/","pixel__setting":"3","pixel__enabled":true,"pixel__url":"https:\/\/moderate8-v4.cleantalk.org\/pixel\/50470d72a3bf6b5561f76a4e58908f61.gif","data__email_check_before_post":"1","data__email_check_exist_post":0,"data__cookies_type":"none","data__key_is_ok":false,"data__visible_fields_required":true,"wl_brandname":"Anti-Spam by CleanTalk","wl_brandname_short":"CleanTalk","ct_checkjs_key":"9e6e19ddc4d270ff1b6591e96c6b8712c926cbf0eaefaa83f52155caf94b0faa","emailEncoderPassKey":"2bc9203ccc4fff8ac3cc7bc8adadaeb8","bot_detector_forms_excluded":"W10=","advancedCacheExists":true,"varnishCacheExists":false,"wc_ajax_add_to_cart":true,"theRealPerson":{"phrases":{"trpHeading":"The Real Person Badge!","trpContent1":"The commenter acts as a real person and verified as not a bot.","trpContent2":"Passed all tests against spam bots. Anti-Spam by CleanTalk.","trpContentLearnMore":"Learn more"},"trpContentLink":"https:\/\/cleantalk.org\/the-real-person?utm_id=&amp;utm_term=&amp;utm_source=admin_side&amp;utm_medium=trp_badge&amp;utm_content=trp_badge_link_click&amp;utm_campaign=apbct_links","imgPersonUrl":"https:\/\/agrodova.es\/wp-content\/plugins\/cleantalk-spam-protect\/css\/images\/real_user.svg","imgShieldUrl":"https:\/\/agrodova.es\/wp-content\/plugins\/cleantalk-spam-protect\/css\/images\/shield.svg"}}</script>
 <title>HOME - Agrodova</title>
-<link rel="canonical" href="index.html"/>
+<link rel="canonical" href="index"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="HOME - Planasa"/>
-<meta property="og:url" content="https://planasa.com/"/>
+<meta property="og:title" content="HOME - Agrodova"/>
+<meta property="og:url" content="https://agrodova.es/"/>
 <meta property="og:site_name" content="Planasa"/>
 <meta property="article:modified_time" content="2025-01-27T08:39:36+00:00"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://planasa.com/","url":"https://planasa.com/","name":"HOME - Planasa","isPartOf":{"@id":"https://planasa.com/#website"},"datePublished":"2022-02-08T18:43:51+00:00","dateModified":"2025-01-27T08:39:36+00:00","breadcrumb":{"@id":"https://planasa.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://planasa.com/"]}]},{"@type":"BreadcrumbList","@id":"https://planasa.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada"}]},{"@type":"WebSite","@id":"https://planasa.com/#website","url":"https://planasa.com/","name":"Planasa","description":"Innovation in plant varieties","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://planasa.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://agrodova.es/","url":"https://agrodova.es/","name":"HOME - Planasa","isPartOf":{"@id":"https://agrodova.es/#website"},"datePublished":"2022-02-08T18:43:51+00:00","dateModified":"2025-01-27T08:39:36+00:00","breadcrumb":{"@id":"https://agrodova.es/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://agrodova.es/"]}]},{"@type":"BreadcrumbList","@id":"https://agrodova.es/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada"}]},{"@type":"WebSite","@id":"https://agrodova.es/#website","url":"https://agrodova.es/","name":"Planasa","description":"Innovation in plant varieties","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://agrodova.es/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
 <link rel='dns-prefetch' href='http://unpkg.com/'/>
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/'/>
 <link rel='dns-prefetch' href='http://use.fontawesome.com/'/>
@@ -58,15 +65,16 @@
 <meta name="generator" content="WordPress 6.8.1"/>
 <meta name="generator" content="WooCommerce 9.9.3"/>
 <link rel='shortlink' href='index.html'/>
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="wp-json/oembed/1.0/embed09ea.json?url=https%3A%2F%2Fplanasa.com%2F"/>
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="wp-json/oembed/1.0/embed1b47?url=https%3A%2F%2Fplanasa.com%2F&amp;format=xml"/>
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="wp-json/oembed/1.0/embed09ea.json?url=https%3A%2F%2Fagrodova.es%2F"/>
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="wp-json/oembed/1.0/embed1b47?url=https%3A%2F%2Fagrodova.es%2F&amp;format=xml"/>
 <meta name="generator" content="WPML ver:4.6.15 stt:1,4,3,27,66,67,2,68;"/>
 <noscript><style>.woocommerce-product-gallery{opacity:1 !important;}</style></noscript>
 <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
 <link rel="icon" href="wp-content/uploads/2022/02/cropped-favicon-32x32.png" sizes="32x32"/>
 <link rel="icon" href="wp-content/uploads/2022/02/cropped-favicon-192x192.png" sizes="192x192"/>
 <link rel="apple-touch-icon" href="wp-content/uploads/2022/02/cropped-favicon-180x180.png"/>
-<meta name="msapplication-TileImage" content="https://planasa.com/wp-content/uploads/2022/02/cropped-favicon-270x270.png"/>
+
+<meta name="msapplication-TileImage" content="https://agrodova.es/wp-content/uploads/2022/02/cropped-favicon-270x270.png"/>
 <style id="wp-custom-css">.modal_Michael{background-color:white}
 #button_more_info_Michael{display:flex;margin:0 auto !important;justify-content:center !important;width:250px;text-align:center;}
 .text_size_button#button_more_info_Michael{font-size:16px !important;}

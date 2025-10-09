@@ -1,0 +1,207 @@
+/* /wp/blueberry.css
+   Responsive 5-up (desktop) → 1-up (mobile) product grid
+   Works with:
+     - <ul class="products-grid"> … </ul>
+     - <ul class="products columns-4"> … </ul>  (Salient/Woo default)
+*/
+
+/* ========== GRID LAYOUT ========== */
+ul.products-grid,
+ul.products[class*="columns-"] {
+  display: grid !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  ul.products-grid,
+  ul.products[class*="columns-"] {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  ul.products-grid,
+  ul.products[class*="columns-"] {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+/* Neutralize theme floats/widths so grid can control layout */
+ul.products-grid > li,
+ul.products[class*="columns-"] > li {
+  width: auto !important;
+  float: none !important;
+  margin: 0 !important;
+}
+
+/* ========== CARD ========== */
+ul.products-grid > li.classic.product,
+ul.products[class*="columns-"] > li.classic.product {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: transform .25s ease, box-shadow .25s ease;
+  isolation: isolate; /* ensure overlays layer correctly */
+}
+
+ul.products-grid > li.classic.product:hover,
+ul.products[class*="columns-"] > li.classic.product:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* ========== IMAGE AREA ========== */
+ul.products-grid .product-wrap,
+ul.products[class*="columns-"] .product-wrap {
+  position: relative;
+  aspect-ratio: 1 / 1;  /* square cards */
+  overflow: hidden;
+}
+
+/* Make the image fill the card area */
+ul.products-grid .product-wrap img,
+ul.products[class*="columns-"] .product-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .5s ease;
+}
+
+/* Subtle zoom on hover */
+ul.products-grid > li.classic.product:hover .product-wrap img,
+ul.products[class*="columns-"] > li.classic.product:hover .product-wrap img {
+  transform: scale(1.06);
+}
+
+/* Clickable image area covers full wrap */
+ul.products-grid .product-wrap > a,
+ul.products[class*="columns-"] .product-wrap > a {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+/* Gradient overlay for readability */
+ul.products-grid .product-wrap::after,
+ul.products[class*="columns-"] .product-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 18%, rgba(0,0,0,0) 55%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ========== TEXT OVER IMAGE ========== */
+/* In your HTML, .pl-titles-loop is sibling to .product-wrap.
+   Anchor it to the <li>, not inside .product-wrap. */
+ul.products-grid > li.classic.product .pl-titles-loop,
+ul.products[class*="columns-"] > li.classic.product .pl-titles-loop {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  pointer-events: none; /* so clicks go to the link/image */
+}
+
+/* Title */
+ul.products-grid .pl-titles-loop .woocommerce-loop-product__title,
+ul.products[class*="columns-"] .pl-titles-loop .woocommerce-loop-product__title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: .2px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+
+/* Subtitle */
+ul.products-grid .pl-titles-loop .subtitle-pl-loop,
+ul.products[class*="columns-"] .pl-titles-loop .subtitle-pl-loop {
+  font-size: 13px;
+  opacity: .92;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.45);
+}
+
+/* Smaller text on very small screens */
+@media (max-width: 480px) {
+  ul.products-grid .pl-titles-loop .woocommerce-loop-product__title,
+  ul.products[class*="columns-"] .pl-titles-loop .woocommerce-loop-product__title {
+    font-size: 16px;
+  }
+  ul.products-grid .pl-titles-loop .subtitle-pl-loop,
+  ul.products[class*="columns-"] .pl-titles-loop .subtitle-pl-loop {
+    font-size: 12px;
+  }
+}
+
+/* ========== CTA BUTTON (top-right) ========== */
+ul.products-grid .product-add-to-cart,
+ul.products[class*="columns-"] .product-add-to-cart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity .25s ease, transform .25s ease;
+  pointer-events: none; /* only the button itself should be clickable */
+}
+
+ul.products-grid > li.classic.product:hover .product-add-to-cart,
+ul.products[class*="columns-"] > li.classic.product:hover .product-add-to-cart {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+ul.products-grid .product-add-to-cart .button,
+ul.products[class*="columns-"] .product-add-to-cart .button {
+  pointer-events: auto;
+  background: #3f9c35;
+  color: #fff;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 6px 16px rgba(63,156,53,0.25);
+}
+
+ul.products-grid .product-add-to-cart .button:hover,
+ul.products[class*="columns-"] .product-add-to-cart .button:hover {
+  filter: brightness(1.05);
+}
+
+/* ========== MISC CLEANUP ========== */
+ul.products-grid > li.classic.product .pl-titles-loop,
+ul.products-grid > li.classic.product .product-wrap,
+ul.products-grid > li.classic.product a,
+ul.products-grid > li.classic.product img,
+ul.products[class*="columns-"] > li.classic.product .pl-titles-loop,
+ul.products[class*="columns-"] > li.classic.product .product-wrap,
+ul.products[class*="columns-"] > li.classic.product a,
+ul.products[class*="columns-"] > li.classic.product img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
