@@ -577,12 +577,12 @@ font-size:45px !important;
 
 <nav>
 <ul class="sf-menu">
-<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-74"><a href="varieties/index.html"><span class="menu-title-text">Varieties</span></a></li>
+<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-74"><a href="varieties"><span class="menu-title-text">Varieties</span></a></li>
 <li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-75"><a href="#"><span class="menu-title-text">Activities</span></a>
 <ul class="sub-menu">
-<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-79"><a href="rd/index.html"><span class="menu-title-text">R&#038;D</span></a></li>
-<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-78"><a href="nursery/index.html"><span class="menu-title-text">Nursery</span></a></li>
-<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-77"><a href="technical-support/index.html"><span class="menu-title-text">Technical support</span></a></li>
+<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-79"><a href="rd"><span class="menu-title-text">R&#038;D</span></a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-78"><a href="nursery"><span class="menu-title-text">Nursery</span></a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-77"><a href="technical-support"><span class="menu-title-text">Technical support</span></a></li>
 </ul>
 </li>
 <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-73"><a href="careers/index.html"><span class="menu-title-text">Careers</span></a></li>
