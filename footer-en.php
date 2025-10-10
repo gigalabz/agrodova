@@ -89,5 +89,14 @@
   })
 </script>
 
+<script src='/wp-content/cache/wpfc-minified/jq0kqx4c/bt8zc.js'></script>
+<script src='/wp-content/cache/wpfc-minified/11pzrwj3/bt9yw.js'></script>
+<script src='/wp-content/cache/wpfc-minified/qiedwado/bt9yw.js'></script>
+<script src='/wp-content/cache/wpfc-minified/k2810pm1/bt8zc.js'></script>
+<script defer src='/wp-content/cache/wpfc-minified/rqm2egv/bt9yw.js'></script>
+
+<script src="/assets/js/agrodova-mobile-menu.js?v=1"></script>
+<script src="agrodova-mobile-menu.js?v=1"></script>
+
 </body>
 </html>

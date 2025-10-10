@@ -571,9 +571,11 @@ font-size:45px !important;
 <div class="col span_12"> <form role="search" action="https://agrodova.es/" method="GET"> <input type="text" name="s" value="" aria-label="Search" placeholder="Search" /> <span>Hit enter to search or ESC to close</span> </form></div></div></div><div id="close"><a href="#"><span class="screen-reader-text">Close Search</span> <span class="close-wrap"> <span class="close-line close-line1"></span> <span class="close-line close-line2"></span> </span> </a></div></div></div></div><header id="top">
 <div class="container">
 <div class="row">
-<div class="col span_3"> <a id="logo" href="https://agrodova.es/" data-supplied-ml-starting-dark="false" data-supplied-ml-starting="false" data-supplied-ml="false"> <img class="stnd skip-lazy dark-version" width="147" height="46" alt="Planasa" src="agrodova.svg"> </a></div><div class="col span_9 col_last">
+<div class="col span_3"> <a id="logo" href="https://agrodova.es/" data-supplied-ml-starting-dark="false" data-supplied-ml-starting="false" data-supplied-ml="false"> <img class="stnd skip-lazy dark-version" width="147" height="46" alt="agrodova" src="agrodova.svg"> </a></div><div class="col span_9 col_last">
 <div class="slide-out-widget-area-toggle mobile-icon slide-out-from-right-hover" data-custom-color="false" data-icon-animation="simple-transform">
-<div> <a href="#sidewidgetarea" aria-label="Navigation Menu" aria-expanded="false" class="closed"> <span class="screen-reader-text">Menu</span><span aria-hidden="true"> <i class="lines-button x2"> <i class="lines"></i> </i> </span> </a></div></div><nav>
+<div> <a href="#sidewidgetarea" aria-label="Navigation Menu" aria-expanded="false" class="closed"> <span class="screen-reader-text">Menu</span><span aria-hidden="true"> <i class="lines-button x2"> <i class="lines"></i> </i> </span> </a></div></div>
+
+<nav>
 <ul class="sf-menu">
 <li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-74"><a href="varieties/index.html"><span class="menu-title-text">Varieties</span></a></li>
 <li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-75"><a href="#"><span class="menu-title-text">Activities</span></a>
@@ -596,4 +598,7 @@ font-size:45px !important;
 <ul class="buttons sf-menu" data-user-set-ocm="off">
 <li id="nectar-user-account"><div><a href="index.html"><span class="icon-salient-m-user" aria-hidden="true"></span><span class="screen-reader-text">account</span></a></div></li>
 </ul>
-</nav></div></div></div></header>
+</nav>
+
+
+</div></div></div></header>
