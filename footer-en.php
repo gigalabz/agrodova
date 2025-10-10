@@ -32,9 +32,9 @@
       </div>
       <div class="col-md-6 span_7 col_last col-right">
         <ul id="menu-footer-menu" class="menu" style="display:flex; gap:14px; flex-wrap:wrap; justify-content:flex-end; padding:0; margin:0; list-style:none;">
-          <li class="menu-item" style="display:inline;"><a href="/en/privacy-policy" style="color:#333; text-decoration:none;">Privacy Policy</a></li>
-          <li class="menu-item" style="display:inline;"><a href="/en/cookies-policy" style="color:#333; text-decoration:none;">Cookies Policy</a></li>
-          <li class="menu-item" style="display:inline;"><a href="/en/legal-notice" style="color:#333; text-decoration:none;">Legal Notice</a></li>
+          <li class="menu-item" style="display:inline;"><a href="privacy-policy-en" style="color:#333; text-decoration:none;">Privacy Policy</a></li>
+          <li class="menu-item" style="display:inline;"><a href="cookies-policy-en" style="color:#333; text-decoration:none;">Cookies Policy</a></li>
+          <li class="menu-item" style="display:inline;"><a href="legal-notice-en" style="color:#333; text-decoration:none;">Legal Notice</a></li>
         </ul>
       </div>
     </div>
