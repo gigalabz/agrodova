@@ -22,6 +22,45 @@
   /* 5) Fallback color in case theme uses gradient/clip-text (static exports can render it transparent) */
   .ns-heading-el { color: #111 !important; mix-blend-mode: normal !important; }
 </style>
+<style>
+  /* Make Nectar animated/lazy images visible in static export */
+  .img-with-animation,
+  .img-with-animation img,
+  .nectar-lazy {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+  }
+  .hover-wrap, .hover-wrap-inner { 
+    opacity: 1 !important; 
+    transform: none !important; 
+  }
+</style>
+
+<script>
+/* Hydrate Salient's lazy images for static pages (no JS loader) */
+(function() {
+  function hydrateNectarLazy() {
+    // <img ... data-nectar-img-src="..."> -> set real src/srcset
+    document.querySelectorAll('img[data-nectar-img-src]').forEach(function(img){
+      var src = img.getAttribute('data-nectar-img-src');
+      if (src) img.setAttribute('src', src);
+      var srcset = img.getAttribute('data-nectar-img-srcset');
+      if (srcset) img.setAttribute('srcset', srcset);
+      // cleanup & remove lazy classes
+      img.removeAttribute('data-nectar-img-src');
+      img.removeAttribute('data-nectar-img-srcset');
+      img.classList.remove('nectar-lazy','skip-lazy');
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', hydrateNectarLazy);
+  } else {
+    hydrateNectarLazy();
+  }
+})();
+</script>
+
 
 
 
@@ -75,7 +114,7 @@
 <div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
 <div class="inner">
 <div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img decoding="async" class="img-with-animation skip-lazy about-img nectar-lazy" data-delay="0" height="184" width="155" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/varieties.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20155%20184'%2F%3E" alt=""/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
+<div class="hover-wrap-inner"> <img decoding="async" class="img-with-animation skip-lazy about-img nectar-lazy" data-delay="0" height="184" width="155" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/varieties1.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20155%20184'%2F%3E" alt=""/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
 <div class="wpb_wrapper">
 <div class="counter-space"><div class="counter-about"><b>+<span class="counter">225</span></b><br> registered varieties</div></div></div></div></div></div></div><div class="vc_col-sm-1/5 vc_col-xs-6 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
@@ -83,7 +122,7 @@
 <div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
 <div class="inner">
 <div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy about-img nectar-lazy" data-delay="0" height="184" width="155" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/RD.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20155%20184'%2F%3E" alt=""/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
+<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy about-img nectar-lazy" data-delay="0" height="184" width="155" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/RD1.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20155%20184'%2F%3E" alt=""/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
 <div class="wpb_wrapper">
 <div class="counter-space"><div class="counter-about"><b><span class="counter">6</span></b><br> R&D centres</div></div></div></div></div></div></div><div class="vc_col-sm-1/5 vc_col-xs-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
@@ -91,14 +130,14 @@
 <div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
 <div class="inner">
 <div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy about-img nectar-lazy" data-delay="0" height="184" width="155" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/MILLIONS.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20155%20184'%2F%3E" alt=""/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
+<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy about-img nectar-lazy" data-delay="0" height="184" width="155" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/MILLIONS1.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20155%20184'%2F%3E" alt=""/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
 <div class="wpb_wrapper">
 <div class="counter-space"><div class="counter-about"><b>+<span class="counter">1,000</span></b> MILLIONS <br> of plants produced each year</div></div></div></div></div></div></div></div></div></div></div></div></div></div><div id="fws_68d15c3db022c" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_65px top_margin_phone_0px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper"> <h1 class="title-green"><span class="title-span">IMPROVE TODAY,</span><span class="title-span">TOMORROW’S FOOD</span></h1></div></div></div></div></div></div></div><div id="row_responsive_container3" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_50px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="wpb_wrapper" style="margin-top:30px !important;"> <h1 class="title-green"><span class="title-span">IMPROVE TODAY,</span><span class="title-span">TOMORROW’S FOOD</span></h1></div></div></div></div></div></div></div><div id="row_responsive_container3" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_50px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
