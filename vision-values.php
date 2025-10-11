@@ -9,7 +9,7 @@
   }
   #fws_68d15cf9424b4 .row_col_wrap_12 .col { float: none; } /* neutralize theme floats in this row only */
 
-  /* Keep VC widths on ≥992px (sm breakpoint in many themes), stack on mobile */
+  /* Keep VC widths on ≥992px, stack on mobile */
   @media (max-width: 991px) {
     #fws_68d15cf9424b4 .vc_col-sm-8,
     #fws_68d15cf9424b4 .vc_col-sm-4 {
@@ -19,6 +19,18 @@
     #fws_68d15cf9424b4 .vc_col-sm-8 { order: 1; }
     #fws_68d15cf9424b4 .vc_col-sm-4 { order: 2; }
   }
+</style>
+<style>
+.settings-error {
+  padding: 0 100px; /* default for laptop/desktop */
+}
+
+@media (max-width: 991px) {
+  /* tablet and mobile */
+  .settings-error {
+    padding: 0 50px;
+  }
+}
 </style>
 
 </div><div id="ajax-content-wrap">
@@ -45,7 +57,7 @@
 <div class="wpb_wrapper">
 <div class="divider-wrap" data-alignment="default"><div style="height: 88px;" class="divider"></div></div><div class="nectar-highlighted-text" data-style="full_text" data-exp="default" data-using-custom-color="false" data-animation-delay="false" data-color="" data-color-gradient=""> <h2 class="sub-minuscula text-center" style="text-align: center;">Agrodova is a global operator in the agri-food sector, specialising in plant innovation, nursery, and fresh produce.</h2></div></div></div></div></div></div><div id="fws_68d15cf9424b4" data-column-margin="10px" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_40px top_margin_phone_0px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
 
-  <!-- IMAGE COLUMN (removed vc_hidden-xs so it shows on mobile too) -->
+  <!-- IMAGE COLUMN -->
   <div class="vc_col-sm-8 col-padding-side wpb_column column_container vc_column_container col has-animation no-extra-padding inherit_tablet inherit_phone mobile-disable-entrance-animation" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="fade-in-from-left" data-delay="0">
     <div class="vc_column-inner">
       <div class="wpb_wrapper">
@@ -126,7 +138,11 @@
 <div class="wpb_wrapper"></div></div></div><div class="vc_col-sm-4 text-rigth wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
-<div class="nectar-highlighted-text" data-style="full_text" data-exp="default" data-using-custom-color="false" data-animation-delay="false" data-color="" data-color-gradient=""> <h2 class="title-green title-green-right" style="text-align: right;"><span class="title-span">VALUES</span></h2></div></div></div></div></div></div></div></div></div></div></div></div><div id="our-varieties" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_5pct top_margin_phone_40px bottom_margin_tablet_40px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="nectar-highlighted-text" data-style="full_text" data-exp="default" data-using-custom-color="false" data-animation-delay="false" data-color="" data-color-gradient=""> <h2 class="title-green title-green-right" style="text-align: right;"><span class="title-span">VALUES</span></h2></div></div></div></div></div></div></div></div></div></div></div></div>
+
+<div class="settings-error">
+
+<div id="our-varieties" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_5pct top_margin_phone_40px bottom_margin_tablet_40px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
 <div class="vc_col-sm-12 vc_hidden-xs column-icon-value wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
@@ -174,7 +190,7 @@
 <div class="inner">
 <div class="hover-wrap"> 
 <div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="81" width="81" data-animation="none" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/Grupo-1449.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2081%2081'%2F%3E" alt=""/></div></div></div></div><div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper> <p style="font-size: 28px; padding-bottom: 0px;"><strong>Commitment to people</strong></p> <p>Promoting talent, developing leaders, rewarding the achievement of targets.</p></div></div></div></div></div></div></div></div></div></div></div><div id="fws_68d15cf9525ef" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_5pct top_margin_phone_40px bottom_margin_tablet_40px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="wpb_wrapper"> <p style="font-size: 28px; padding-bottom: 0px;"><strong>Commitment to people</strong></p> <p>Promoting talent, developing leaders, rewarding the achievement of targets.</p></div></div></div></div></div></div></div></div></div></div></div><div id="fws_68d15cf9525ef" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_5pct top_margin_phone_40px bottom_margin_tablet_40px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
 <div class="vc_col-sm-12 vc_hidden-lg vc_hidden-md vc_hidden-sm column-icon-value wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
@@ -302,17 +318,31 @@
 <div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy pl-img nectar-lazy" data-delay="0" height="203" width="531" data-animation="none" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/03/history_planasa_8.jpg" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20531%20203'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/03/history_planasa_8.jpg 531w, https://agrodova.es/wp-content/uploads/2022/03/history_planasa_8-300x115.jpg 300w" sizes="auto, (max-width: 531px) 100vw, 531px"/></div></div></div></div><div class="wpb_text_column wpb_content element pl-post-content">
 <div class="wpb_wrapper"> <p>Launch of the strawberry variety RedSayra.</p></div></div><div class="divider-wrap height_tablet_0px" data-alignment="default"><div style="height: 25px;" class="divider"></div></div></div></div></div></div></div><div id="fws_68d15cf95f811" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex"><div class="row-bg-wrap"> <div class="row-bg"></div></div><div class="row_col_wrap_12_inner col span_12 left">
 <div class="vc_col-sm-4 img_pequeña wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="divider-wrap" data-alignment="default"><div style="height: 80px;" class="divider"></div></div><div class="img-with-aniamtion-wrap custom-size" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="none">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="118" width="98" data-animation="none" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/03/hoja_agrodova.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2098%20118'%2F%3E" alt=""/></div></div></div></div><div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper"> <p class="color-green subtitle-big">Our story will continue&#8230;</p></div></div></div></div></div><div style="z-index: 90;" class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper"></div></div></div><div style="z-index: 80;" class="vc_col-sm-4 img_pequeña wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper"></div></div></div></div></div></div></div></div></div></div><div id="our-varieties" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_5pct top_margin_phone_40px bottom_margin_tablet_40px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+  <div class="vc_column-inner">
+    <div class="wpb_wrapper">
+      <div class="divider-wrap" data-alignment="default"><div style="height: 80px;" class="divider"></div></div>
+      <div class="img-with-aniamtion-wrap custom-size" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="none">
+        <div class="inner">
+          <div class="hover-wrap">
+            <div class="hover-wrap-inner">
+              <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="118" width="98" data-animation="none" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/03/hoja_planasa.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2098%20118'%2F%3E" alt=""/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wpb_text_column wpb_content_element">
+        <div class="wpb_wrapper"><p class="color-green subtitle-big">Our story will continue&#8230;</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="z-index: 90;" class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
+  <div class="vc_column-inner"><div class="wpb_wrapper"></div></div>
+</div>
+<div style="z-index: 80;" class="vc_col-sm-4 img_pequeña wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
+  <div class="vc_column-inner"><div class="wpb_wrapper"></div></div>
+</div>
+</div></div></div></div></div></div></div></div><div id="our-varieties" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_5pct top_margin_phone_40px bottom_margin_tablet_40px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
 <div class="vc_col-sm-12 vc_hidden-lg vc_hidden-md vc_hidden-sm wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
@@ -388,17 +418,16 @@
 <div class="img-with-aniamtion-wrap custom-size" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
 <div class="inner">
 <div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="118" width="98" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/03/hoja_agrodova.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2098%20118'%2F%3E" alt=""/></div></div></div></div><div class="wpb_text_column wpb_content element">
-<div class="wpb_wrapper"> <p class="color-green subtitle-big">Our story will continue&#8230;</p></div></div></div></div></div><div style="z-index: 80;" class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper"></div></div></div><div class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
+<div class="hover-wrap-inner">
+<!-- intentionally left empty for layout symmetry -->
+</div></div></div></div></div></div></div><div class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper"></div></div></div></div></div><div id="fws_68d15cf9676f2" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex"><div class="row-bg-wrap"> <div class="row-bg"></div></div><div class="row_col_wrap_12_inner col span_12 left">
 <div class="vc_col-sm-12 img_pequeña wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
-<div class="wpb_wrapper"></div></div></div></div></div></div></div></div></div></div></div></div></div>
+<div class="wpb_wrapper"></div></div></div></div></div></div></div></div></div></div></div></div>
 
-
+</div>
 
 
 <?php include 'footer-en.php'; ?>
