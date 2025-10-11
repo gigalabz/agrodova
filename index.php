@@ -227,20 +227,20 @@ include('header-en.php');
 <div class="planasa-lasts-posts">
 <div class="pl-post-item">
 <div class="pl-post-header">
-<div class="pl-categories"><a href="strawberry/index.html">Strawberry</a></div><div class="time-reading">2 <span>min</span></div></div><a href="planasas-strawberry-varieties-stand-out-in-ifapa-trials-for-their-hardiness-earliness-and-low-water-requirements/index.html">
+</div>
 <div class="pl-post-imagen">
-<div class="pl-img" style="background-image:url(wp-content/uploads/2024/07/redsayra.jpg)"></div></div><div class="pl-post-content">
-<div class="pl-post-title">Agrodova&#8217;s strawberry varieties stand out in IFAPA trials for their hardiness, earliness and low water requirements</div><div class="pl-post-excerpt">RedSayra and Red Samantha are the Agrodova genetics which have formed part of the research carried out by the Andalusian Institute for Agricultural, Fisheries, Food and Organic Production Research and...</div><div class="pl-footer"></div></div></a></div><div class="pl-post-item">
+<div class="pl-img" style="background-image:url(https://agrodova.es/wp-content/uploads/2024/07/strawberry.jpg)"></div></div><div class="pl-post-content">
+<div class="pl-post-title">Agrodova&#8217;s strawberry varieties stand out in IFAPA trials for their hardiness, earliness and low water requirements</div><div class="pl-post-excerpt">RedSayra and Red Samantha are the Agrodova genetics which have formed part of the research carried out by the Andalusian Institute for Agricultural, Fisheries, Food and Organic Production Research and...</div><div class="pl-footer"></div></div></div><div class="pl-post-item">
 <div class="pl-post-header">
-<div class="pl-categories"><a href="">Varieties</a>, <a href="production/index.html">Production</a>, <a href="retailers/index.html">retailers</a></div><div class="time-reading">1 <span>min</span></div></div>
+</div>
 <div class="pl-post-imagen">
-<div class="pl-img" style="background-image:url(wp-content/uploads/2024/03/WhatsApp_Image_2024-03-21_at_12.46.48_2.jpg)"></div></div><div class="pl-post-content">
-<div class="pl-post-title">Agrodova varieties arise the interest of major European retailers</div><div class="pl-post-excerpt">Leading retailers and marketers from the United Kingdom and the Netherlands have visited  Agrodova&#8217;s Research and Development (R&amp;D) centre in Huelva, highlighting the growing interest in Agrodova&#8217;s varieties in various...</div><div class="pl-footer"> <a class="nectar-button pl-yellow-button" href="">Read More</a></div></div></a></div><div class="pl-post-item">
+<div class="pl-img" style="background-image:url(https://agrodova.es/wp-content/uploads/2024/03/WhatsApp_Image_2024-03-21_at_12.46.48_2.jpg)"></div></div><div class="pl-post-content">
+<div class="pl-post-title">Agrodova varieties arise the interest of major European retailers</div><div class="pl-post-excerpt">Leading retailers and marketers from the United Kingdom and the Netherlands have visited  Agrodova&#8217;s Research and Development (R&amp;D) centre in Huelva, highlighting the growing interest in Agrodova&#8217;s varieties in various...</div></div></div><div class="pl-post-item">
 <div class="pl-post-header">
-<div class="pl-categories"><a href="corporate/index.html">Corporate</a></div><div class="time-reading">2 <span>min</span></div></div><a href="50-years/index.html">
+</div>
 <div class="pl-post-imagen">
-<div class="pl-img" style="background-image:url(wp-content/uploads/2023/12/50years-Agrodova-1.jpg)"></div></div><div class="pl-post-content">
-<div class="pl-post-title">50 years of Agrodova, a history of innovation</div><div class="pl-post-excerpt">Agrodova is 50 years old. Founded by the Darbonne family and Caja de Navarra, what began in 1973 as a small agricultural company is now, five decades later, a world...</div><div class="pl-footer"> <a class="nectar-button pl-yellow-button" href="50-years/index.html">Read More</a></div></div></a></div></div></div></div></div></div></div></div></div><div id="fws_68d1545f35e54" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_50px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+<div class="pl-img" style="background-image:url(https://agrodova.es/wp-content/uploads/2024/07/redsayra.jpg)"></div></div><div class="pl-post-content">
+<div class="pl-post-title">50 years of Agrodova, a history of innovation</div><div class="pl-post-excerpt">Agrodova is 50 years old. Founded by the Darbonne family and Caja de Navarra, what began in 1973 as a small agricultural company is now, five decades later, a world...</div></div></div></div></div></div></div></div></div></div></div><div id="fws_68d1545f35e54" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_50px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col centered-text no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 
