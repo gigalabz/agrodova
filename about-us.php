@@ -59,7 +59,6 @@
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  /* prevent Salient/WPBakery float rules inside this row */
   .about-map-row .row_col_wrap_12 .col { float: none !important; }
 
   .about-map-row .col-img,
@@ -71,6 +70,36 @@
   @media (min-width: 992px) {
     .about-map-row .col-list { order: 1; width: 41.6667%; padding-left: 40px; }
     .about-map-row .col-img  { order: 2; width: 58.3333%; }
+  }
+
+  /* === Country grid inside the list column === */
+  .about-map-row .country-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Mobile: 2 per row */
+    gap: 18px 24px;
+    text-align: left;
+  }
+  @media (min-width: 992px) {
+    .about-map-row .country-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr)); /* Laptop: 3 per row */
+    }
+  }
+  .about-map-row .country-item h4 {
+    margin: 0 0 6px 0;
+    color: #3f9c35;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.15;
+  }
+  .about-map-row .country-item ul {
+    margin: 0;
+    padding-left: 1.1em;
+    color: #3f9c35;
+    font-size: 14px;
+  }
+  .about-map-row .country-item ul li {
+    list-style: disc;
+    line-height: 1.45;
   }
 
   /* Optional: tighten spacing on very small phones */
@@ -152,10 +181,10 @@
             #nectar-slider-instance-2, #nectar-slider-instance-2 .swiper-container{height:calc( 550 * 100vw / 1600 );}
           </style>
           <div data-midnight="nectar-slider" class="parallax_slider_outer">
-            <div data-transition="slide" data-overall_style="classic" data-flexible-height="true" data-animate-in-effect="none" data-fullscreen="false" data-button-sizing="regular" data-button-styling="btn_with_count" data-autorotate="" data-parallax="true" data-parallax-disable-mobile="" data-caption-trans="fade_in_from_bottom" data-parallax-style="bg_only" data-bg-animation="none" data-full-width="true" class="nectar-slider-wrap" id="nectar-slider-instance-2">
-              <div class="swiper-container" data-tho="auto" data-tco="auto" data-pho="auto" data-pco="auto" data-loop="false" data-height="550" data-min-height="550" data-arrows="false" data-bullets="false" data-bullet_style="see_through" data-bullet_position="bottom" data-desktop-swipe="false" data-settings="">
+            <div data-transition="slide" data-overall_style="classic" data-flexible-height="true" data-animate-in-effect="none" data-fullscreen="false" class="nectar-slider-wrap" id="nectar-slider-instance-2">
+              <div class="swiper-container" data-loop="false" data-height="550" data-min-height="550" data-arrows="false" data-bullets="false">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide white-text-slide" data-desktop-content-width="auto" data-tablet-content-width="auto" data-bg-alignment="center" data-color-scheme="light" data-x-pos="left" data-y-pos="middle">
+                  <div class="swiper-slide white-text-slide" data-bg-alignment="center" data-color-scheme="light" data-x-pos="left" data-y-pos="middle">
                     <div class="slide-bg-wrap">
                       <div class="image-bg" style="background-image: url(https://agrodova.es/wp-content/uploads/2022/02/CABECERA_ABOUTUS_MOBILE-1.jpg);">&nbsp;</div>
                     </div>
@@ -181,7 +210,7 @@
 <div id="fws_68d15c3da5eb5" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_65px right_padding_8pct left_padding_8pct right_padding_phone_0px left_padding_phone_0px" style="padding-top:0; padding-bottom:0;">
   <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div>
   <div class="row_col_wrap_12 col span_12 dark left">
-    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all">
+    <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone">
       <div class="vc_column-inner">
         <div class="wpb_wrapper">
           <div class="wpb_text_column wpb_content_element">
@@ -382,7 +411,7 @@
   </div>
 </div>
 
-<!-- ======= NEW: SINGLE RESPONSIVE ROW (image right on desktop, image above on mobile) ======= -->
+<!-- ======= IMAGE RIGHT (desktop) / ABOVE (mobile) + COUNTRY GRID ======= -->
 <div id="fws_about_map" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row about-map-row" style="padding-top:0; padding-bottom:0;">
   <div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div>
 
@@ -392,7 +421,6 @@
       <div class="vc_column-inner"><div class="wpb_wrapper">
         <div class="img-with-aniamtion-wrap" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
           <div class="inner"><div class="hover-wrap"><div class="hover-wrap-inner">
-            <!-- use normal src (no theme lazy) for robustness; hydration also supports if you swap back -->
             <img loading="lazy" decoding="async" class="img-with-animation skip-lazy" data-delay="0" height="973" width="1987" data-animation="fade-in"
                  src="https://agrodova.es/wp-content/uploads/2022/02/about-map.png"
                  alt="Agrodova worldwide locations map"/>
@@ -401,65 +429,100 @@
       </div></div>
     </div>
 
-    <!-- Country list column -->
+    <!-- Country list column (now a responsive grid) -->
     <div class="vc_col-sm-5 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone col-list">
       <div class="vc_column-inner"><div class="wpb_wrapper">
-        <div id="fws_68d15c3dbe237" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row" style="padding-top: 20px;">
-          <div class="row-bg-wrap"><div class="row-bg"></div></div>
-          <div class="row_col_wrap_12_inner col span_12 left">
-            <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding">
-              <div class="vc_column-inner"><div class="wpb_wrapper">
-                <div class="wpb_text_column wpb_content_element country_list"><div class="wpb_wrapper">
 
-                  <p><span style="color:#3f9c35;"><strong>SPAIN</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Valtierra</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Cartaya</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Fuente el Olmo</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Sariñena</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Toro</span></p>
+        <div class="country-grid">
+          <div class="country-item">
+            <h4>SPAIN</h4>
+            <ul>
+              <li>Valtierra</li>
+              <li>Cartaya</li>
+              <li>Fuente el Olmo</li>
+              <li>Sariñena</li>
+              <li>Toro</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>POLAND</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Gniezno</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Ostrowo</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Przysieka</span></p>
+          <div class="country-item">
+            <h4>POLAND</h4>
+            <ul>
+              <li>Gniezno</li>
+              <li>Ostrowo</li>
+              <li>Przysieka</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>MEXICO</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Guadalajara</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Michoacan</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Guanajuato</span></p>
+          <div class="country-item">
+            <h4>MEXICO</h4>
+            <ul>
+              <li>Guadalajara</li>
+              <li>Michoacan</li>
+              <li>Guanajuato</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>USA</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Anderson</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Rio Vista</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Red Bluff</span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Macdoel</span></p>
+          <div class="country-item">
+            <h4>USA</h4>
+            <ul>
+              <li>Anderson</li>
+              <li>Rio Vista</li>
+              <li>Red Bluff</li>
+              <li>Macdoel</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>FRANCE</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">LeBarp</span></p>
+          <div class="country-item">
+            <h4>FRANCE</h4>
+            <ul>
+              <li>LeBarp</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>ITALY</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Policoro</span></p>
+          <div class="country-item">
+            <h4>ITALY</h4>
+            <ul>
+              <li>Policoro</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>ROMANIA</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Caracal</span></p>
+          <div class="country-item">
+            <h4>ROMANIA</h4>
+            <ul>
+              <li>Caracal</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>CHINA</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Meiming</span></p>
+          <div class="country-item">
+            <h4>CHINA</h4>
+            <ul>
+              <li>Meiming</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>NETHERLANDS</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Roermond</span></p>
+          <div class="country-item">
+            <h4>NETHERLANDS</h4>
+            <ul>
+              <li>Roermond</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>PERU</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Trujillo</span></p>
+          <div class="country-item">
+            <h4>PERU</h4>
+            <ul>
+              <li>Trujillo</li>
+            </ul>
+          </div>
 
-                  <p><span style="color:#3f9c35;"><strong>MOROCCO</strong></span><br>
-                  <span style="color:#3f9c35; font-size:14px;">Kénitra</span></p>
-
-                </div></div>
-              </div></div>
-            </div>
+          <div class="country-item">
+            <h4>MOROCCO</h4>
+            <ul>
+              <li>Kénitra</li>
+            </ul>
           </div>
         </div>
+
       </div></div>
     </div>
   </div>
