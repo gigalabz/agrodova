@@ -588,12 +588,12 @@ font-size:45px !important;
 <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-73"><a href="careers"><span class="menu-title-text">Careers</span></a></li>
 <li id="menu-item-8646" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-8646"><a href="#"><span class="menu-title-text">About us</span></a>
 <ul class="sub-menu">
-<li id="menu-item-8645" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8645"><a href="about-us/index.html"><span class="menu-title-text">About us</span></a></li>
-<li id="menu-item-2546" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2546"><a href="vision-values/index.html"><span class="menu-title-text">History &#038; vision</span></a></li>
-<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-76"><a href="esg/index.html"><span class="menu-title-text">ESG</span></a></li>
+<li id="menu-item-8645" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8645"><a href="about-us"><span class="menu-title-text">About us</span></a></li>
+<li id="menu-item-2546" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2546"><a href="vision-values"><span class="menu-title-text">History &#038; vision</span></a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-76"><a href="esg"><span class="menu-title-text">ESG</span></a></li>
 </ul>
 </li>
-<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-71"><a href="contact/index.html"><span class="menu-title-text">Contact</span></a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-71"><a href="contact"><span class="menu-title-text">Contact</span></a></li>
 <li id="menu-item-wpml-ls-36-es" class="menu-item wpml-ls-slot-36 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item nectar-regular-menu-item menu-item-wpml-ls-36-es"><a href="es/index.html"><span class="menu-title-text"> <img class="wpml-ls-flag" src="wp-content/uploads/flags/Grupo%201414%403x.png" alt="Spanish"/></span></a></li>
 <ul class="buttons sf-menu" data-user-set-ocm="off">
 <li id="nectar-user-account"><div><a href="index.html"><span class="icon-salient-m-user" aria-hidden="true"></span><span class="screen-reader-text">account</span></a></div></li>
