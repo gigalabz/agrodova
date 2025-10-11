@@ -1,6 +1,14 @@
 <?php include 'header-en.php'; ?>
 
+<style>
 
+@media (max-width: 991px) {
+  /* tablet and mobile */
+  .setting {
+    padding: 0px 50px 0px 50px !important;
+  }
+}
+</style>
 
 
 </div><div id="ajax-content-wrap">
@@ -120,113 +128,31 @@
 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
-<div class="col span_12 section-title text-align-center extra-padding"><h2><span style="color: #3f9c35;font-size: 36px;font-weight: 300">OUR PROJECTS</span></h2></div><div class="clear"></div><div class="wpb_text_column wpb_content_element">
+<div class="col span_12 section-title text-align-center extra-padding"><h2><span style="color: #3f9c35;font-size: 36px;font-weight: 300">OUR PROJECTS</span></h2></div>
+
+<div class="setting">
+
+
+<div class="clear"></div><div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <div class="planasa-lasts-posts">
 <div class="pl-post-item">
 <div class="pl-post-header">
-<div class="pl-categories"><a href="../corporate/index.html">Corporate</a>, <a href="../corpoesg/index.html">ESG</a></div><div class="time-reading">0 <span>min</span></div></div><a href="../your-safety-is-our-priority/index.html">
+</div>
 <div class="pl-post-imagen">
 <div class="pl-img" style="background-image:url(https://agrodova.es/wp-content/uploads/2022/03/Collage-COVID-19-scaled.jpg)"></div></div><div class="pl-post-content">
-<div class="pl-post-title">Safety is our priority</div><div class="pl-post-excerpt">Our people are our most valuable asset, and that&#8217;s why we care so much about their health and their families&#8217; health. We are proud of how they are following the...</div><div class="pl-footer"> <a class="nectar-button pl-yellow-button" href="../your-safety-is-our-priority/index.html">Read More</a></div></div></a></div><div class="pl-post-item">
+<div class="pl-post-title">Safety is our priority</div><div class="pl-post-excerpt">Our people are our most valuable asset, and that&#8217;s why we care so much about their health and their families&#8217; health. We are proud of how they are following the...</div></div></div><div class="pl-post-item">
 <div class="pl-post-header">
-<div class="pl-categories"><a href="../corporate/index.html">Corporate</a>, <a href="../corpoesg/index.html">ESG</a></div><div class="time-reading">2 <span>min</span></div></div><a href="../planasa-workers-try-to-help-nearby-communities-affected-by-the-covid-19/index.html">
+</div>
 <div class="pl-post-imagen">
 <div class="pl-img" style="background-image:url(https://agrodova.es/wp-content/uploads/2022/03/Collage-gestos-Planasa-scaled.jpg)"></div></div><div class="pl-post-content">
-<div class="pl-post-title">Agrodova workers try to help nearby communities affected by the Covid-19</div><div class="pl-post-excerpt">During the past weeks, Agrodova has carried out different solidarity actions on the initiative of its own workers, small gestures that try to help the communities near their workplaces that...</div><div class="pl-footer"> <a class="nectar-button pl-yellow-button" href="../planasa-workers-try-to-help-nearby-communities-affected-by-the-covid-19/index.html">Read More</a></div></div></a></div><div class="pl-post-item">
+<div class="pl-post-title">Agrodova workers try to help nearby communities affected by the Covid-19</div><div class="pl-post-excerpt">During the past weeks, Agrodova has carried out different solidarity actions on the initiative of its own workers, small gestures that try to help the communities near their workplaces that...</div></div></div><div class="pl-post-item">
 <div class="pl-post-header">
-<div class="pl-categories"><a href="../corpoesg/index.html">ESG</a>, <a href="../strawberry/index.html">Strawberry</a></div><div class="time-reading">2 <span>min</span></div></div><a href="../nuns-in-seville-produce-gourmet-jam-with-planasa-strawberries/index.html">
+</div>
 <div class="pl-post-imagen">
 <div class="pl-img" style="background-image:url(https://agrodova.es/wp-content/uploads/2022/03/Mermelada-Monjas-004.jpg)"></div></div><div class="pl-post-content">
-<div class="pl-post-title">Nuns in Seville produce gourmet jam with Agrodova strawberries</div><div class="pl-post-excerpt">The nuns at the Monastery of Santa Paula in Seville produce different flavours of gourmet jam that they sell both on their website and at El Corte Inglés (you can...</div><div class="pl-footer"> <a class="nectar-button pl-yellow-button" href="../nuns-in-seville-produce-gourmet-jam-with-planasa-strawberries/index.html">Read More</a></div></div></a></div></div></div></div><div class="divider-wrap" data-alignment="default"><div style="height: 25px;" class="divider"></div></div><div class="divider-wrap" data-alignment="default"><div style="height: 25px;" class="divider"></div></div></div></div></div></div></div><div id="fws_68d158ce1e0e1" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row full-width-section" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap using-image"><div class="row-bg viewport-desktop using-image" style="background-position: left top; background-repeat: no-repeat;" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/Grupo-1357.jpg"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
-<div class="vc_col-sm-12 vc_hidden-xs wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="divider-wrap" data-alignment="default"><div style="height: 80px;" class="divider"></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper"> <a class="text-icon display-inline-esg" href="https://agrodova.es/wp-content/uploads/2022/02/Tigruti-EINF-CCAA-18-19-Consolidado_EN.pdf" target="_blank"><span class="icon-after" style="color: #ffffff;">NON-FINANCIAL INFORMATION REPORT 2018-2019</span><i class="fa-solid fa-arrow-down"></i><i class="fa-solid fa-circle-down"></i></a></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper"> <a class="text-icon display-inline-esg" href="https://agrodova.es/wp-content/uploads/2022/02/EINF-2019-2020_EN.pdf" target="_blank"><span class="icon-after" style="color: #ffffff;">NON-FINANCIAL INFORMATION REPORT 2019-2020</span><i class="fa-solid fa-arrow-down"></i><i class="fa-solid fa-circle-down"></i></a></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper"> <a class="text-icon display-inline-esg" href="https://planasa2.dossetenta.com/wp-content/uploads/2022/02/Informe_financiero_planasa_2020_2021_EN-1.pdf" target="_blank"><span class="icon-after" style="color: #ffffff;">NON-FINANCIAL INFORMATION REPORT 2020-2021</span><i class="fa-solid fa-arrow-down"></i><i class="fa-solid fa-circle-down"></i></a></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper"> <a class="text-icon display-inline-esg" href="https://agrodova.es/wp-content/uploads/2023/02/PLANASA_memoria_sostenibilidad_21-22_EN-2.pdf"><span class="icon-after" style="color: #ffffff;">SUSTAINABILITY REPORT 2021-2022</span><i class="fa-solid fa-arrow-down"></i><i class="fa-solid fa-circle-down"></i></a></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper"> <a class="text-icon display-inline-esg" href="https://agrodova.es/wp-content/uploads/2024/01/PLANASA_memoria_sostenibilidad-22-23EN.pdf"><span class="icon-after" style="color: #ffffff;">SUSTAINABILITY REPORT 2022-2023</span><i class="fa-solid fa-arrow-down"></i><i class="fa-solid fa-circle-down"></i></a></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper"> <a class="text-icon display-inline-esg" href="https://agrodova.es/wp-content/uploads/2025/02/PLANASA_memoria_sostenibilidad_EN_24_comp.pdf"><span class="icon-after" style="color: #ffffff;">SUSTAINABILITY REPORT 2023-2024</span><i class="fa-solid fa-arrow-down"></i><i class="fa-solid fa-circle-down"></i></a></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper"> <a class="text-icon display-inline-esg" href="#"><span class="icon-after" style="color: #ffffff;"></span><i style="display:none" class="fa-solid fa-arrow-down"></i><i class="fa-solid fa-circle-down"></i></a></div></div><div class="divider-wrap" data-alignment="default"><div style="height: 45px;" class="divider"></div></div></div></div></div></div></div><div id="our-policies" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
-<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="divider-wrap" data-alignment="default"><div style="height: 50px;" class="divider"></div></div><div class="nectar-highlighted-text" data-style="full_text" data-exp="default" data-using-custom-color="false" data-animation-delay="false" data-color="" data-color-gradient=""><span class="title-green">OUR<br /> POLICIES</span></div><div class="divider-wrap" data-alignment="default"><div style="height: 10px;" class="divider"></div></div></div></div></div></div></div><div id="our-policies" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
-<div class="vc_col-sm-6 download-column wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="toggles" data-starting="default" data-style="default"><div class="toggle default" data-inner-wrap="true"><h3><a href="#" class="toggle-heading"><i class="fa fa-plus-circle"></i>Agrodova GROUP CODE OF CONDUCT</a></h3><div><div class="inner-toggle-wrap">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>Our Code of Conduct defines the values and standards by which Agrodova Group conducts business. It is designed to provide Agrodova Group’s partners and employees/contractors with a clear understanding of the standards of conduct and to be a road map to help guide our actions and behaviors at Agrodova Group.</p>
-<div class="botonera" style="text-align: center;"></div></div></div></div></div></div><div class="toggle default" data-inner-wrap="true"><h3><a href="#" class="toggle-heading"><i class="fa fa-plus-circle"></i>Agrodova GROUP CONFLICT OF INTEREST POLICY</a></h3><div><div class="inner-toggle-wrap">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>The purpose of this policy is to define the guidelines and rules for Agrodova personnel by identifying, monitoring and managing actual and potential conflicts of interest within the Agrodova Group.</p>
-<div class="botonera" style="text-align: center;"></div></div></div></div></div></div><div class="toggle default" data-inner-wrap="true"><h3><a href="#" class="toggle-heading"><i class="fa fa-plus-circle"></i>Agrodova GROUP WHISTLE BLOWING POLICY</a></h3><div><div class="inner-toggle-wrap">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>This policy aims to encourage Agrodova Personnel to report actual or suspected wrongdoing as soon as possible, in the knowledge that their concerns will be taken seriously and investigated as appropriate, and that their confidentiality will be respected. It also aims to provide Agrodova Personnel with guidance as to how to raise those concerns.</p>
-<div class="botonera" style="text-align: center;"></div></div></div></div></div></div><div class="toggle default" data-inner-wrap="true"><h3><a href="#" class="toggle-heading"><i class="fa fa-plus-circle"></i>Agrodova GROUP INFORMATION SECURITY REGULATION</a></h3><div><div class="inner-toggle-wrap">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>This document aims to establishing guidelines and general principles for initiating, implementing, maintaining and improving information security in Agrodova Group and, to this end, it includes the security measures applicable to corporate information and information systems.</p>
-<div class="botonera" style="text-align: center;"></div></div></div></div></div></div><div class="toggle default" data-inner-wrap="true"><h3><a href="#" class="toggle-heading"><i class="fa fa-plus-circle"></i>SUPPLIER CODE OF CONDUCT - Agrodova GROUP</a></h3><div><div class="inner-toggle-wrap">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>Through this Code, Agrodova sets out the minimum standards that are expected from its suppliers to drive<br />
-the development of ethical and sustainable businesses, in line with its values, policies and commitments.</p>
-<div class="botonera" style="text-align: center;"></div></div></div></div></div></div></div></div></div></div><div class="vc_col-sm-6 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="toggles" data-starting="default" data-style="default"><div class="toggle default" data-inner-wrap="true"><h3><a href="#" class="toggle-heading"><i class="fa fa-plus-circle"></i>Agrodova GROUP GIFTS AND HOSPITALITY POLICY</a></h3><div><div class="inner-toggle-wrap">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>This Gifts and Hospitality Policy sets out the responsibilities of Agrodova Personnel in observing and upholding the position of the Agrodova Group on the giving and acceptance of Gifts and Hospitality. It is also to prevent situations occurring where Agrodova Personnel’s professional judgment and the interests of the Agrodova Group could be affected as a result of Gifts and Hospitality offered or received.</p>
-<div class="botonera" style="text-align: center;"></div></div></div></div></div></div><div class="toggle default" data-inner-wrap="true"><h3><a href="#" class="toggle-heading"><i class="fa fa-plus-circle"></i>Agrodova GROUP ANTI-BRIBERY POLICY</a></h3><div><div class="inner-toggle-wrap">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>Bribery is a criminal offence in most jurisdictions worldwide, carrying potential custodial sentences and inevitable reputational harm. The Agrodova Group is committed to the prevention of bribery and to carrying out business fairly, honestly and openly.</p>
-<div class="botonera" style="text-align: center;"></div></div></div><div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper"></div></div></div></div></div><div class="toggle default" data-inner-wrap="true"><h3><a href="#" class="toggle-heading"><i class="fa fa-plus-circle"></i>Agrodova GROUP INFORMATION SECURITY POLICY</a></h3><div><div class="inner-toggle-wrap">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>It is an important guideline for the implementation and continuous improvement of the Group’s business processes in international competition. This Agrodova Group information Security Policy aligns policy and best practices in its area of responsibility to the information security policy and best practices defined by the Agrodova Group Headquarters in Valtierra (Spain).</p>
-<div class="botonera" style="text-align: center;"></div></div></div></div></div></div><div class="toggle default" data-inner-wrap="true"><h3><a href="#" class="toggle-heading"><i class="fa fa-plus-circle"></i>Agrodova ESG POLICY</a></h3><div><div class="inner-toggle-wrap">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>Through this policy, Agrodova promote the integration of sustainability practices within our business model, reinforcing our commitment with the environmental protection, our contribution to social development and the promotion of a responsible and sustainable business model.</p>
-<div class="botonera" style="text-align: center;"></div></div></div></div></div></div></div></div></div></div></div></div><div id="our-policies" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_30px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
-<div class="vc_col-sm-3 download-column wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element esg-text-left subtitle-medium color-green">
-<div class="wpb_wrapper"> <p>Operational Programme ERDF</p> <p>Technology Fund 2007-2013</p></div></div><div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper"> <p>Exp. IDI-20170112</p></div></div></div></div></div><div class="vc_col-sm-6 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element esg-text-justify">
-<div class="wpb_wrapper"> <p>PLANTAS DE NAVARRA SA has received a grant for its Research and Development project OBTAINING NEW HIGH SENSORY QUALITY FRUIT VARIETIES SUITABLE FOR TEMPERATE CLIMATES by the Spanish Centre for the Development of Industrial Technology (CDTI), a grant co-financed by the European Union through the ERDF Operational Programme for R&amp;D&amp;I by and for the benefit of companies &#8211; Technology Fund 2007-2013 (Exp. IDI-20170112). The aim of the project is to obtain new varieties of strawberry, raspberry, blackberry and cherry, specifically developed to improve their adaptation to warm climate zones, as well as their sensory quality. It is expected to obtain early production varieties, maximising productivity and the organoleptic properties of the fruit.</p></div></div></div></div></div><div class="vc_col-sm-3 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="img-with-aniamtion-wrap center custom-size" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="219" width="350" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/normal_union-europea.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20350%20219'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/normal_union-europea.png 350w, https://agrodova.es/wp-content/uploads/2022/02/normal_union-europea-300x188.png 300w" sizes="auto, (max-width: 350px) 100vw, 350px"/></div></div></div></div></div></div></div></div></div><div id="fws_68d158ce27cb4" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
-<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div id="fws_68d158ce28392" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row"><div class="row-bg-wrap"> <div class="row-bg"></div></div><div class="row_col_wrap_12_inner col span_12 left">
-<div class="vc_col-sm-3 img-united-nation wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="img-with-aniamtion-wrap custom-size" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner" style="margin-bottom:100px;"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="60" width="200" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/Diseno-sin-titulo-18-1.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20200%2060'%2F%3E" alt=""/></div></div></div></div></div></div></div>
+<div class="pl-post-title">Nuns in Seville produce gourmet jam with Agrodova strawberries</div><div class="pl-post-excerpt">The nuns at the Monastery of Santa Paula in Seville produce different flavours of gourmet jam that they sell both on their website and at El Corte Inglés you can...</div></div></div></div></div></div>
 
-
+</div>
 
 <?php include 'footer-en.php'; ?>
