@@ -141,84 +141,31 @@
 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
-<div id="hide_Container_mobile" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row"><div class="row-bg-wrap"> <div class="row-bg"></div></div><div class="row_col_wrap_12_inner col span_12 left">
-<div class="vc_col-sm-12 about-img2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="150" width="150" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/SDG-Wheel_WEB-150x150-1.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20150%20150'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/SDG-Wheel_WEB-150x150-1.png 150w, https://agrodova.es/wp-content/uploads/2022/02/SDG-Wheel_WEB-150x150-1-100x100.png 100w, https://agrodova.es/wp-content/uploads/2022/02/SDG-Wheel_WEB-150x150-1-140x140.png 140w" sizes="auto, (max-width: 150px) 100vw, 150px"/></div></div></div></div></div></div></div></div></div><div id="hide_Container_mobile" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-content-middle"><div class="row-bg-wrap"> <div class="row-bg"></div></div><div class="row_col_wrap_12_inner col span_12 center">
-<div class="vc_col-sm-4 about-img2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="131" width="131" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/About1.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20131%20131'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/About1.png 131w, https://agrodova.es/wp-content/uploads/2022/02/About1-100x100.png 100w" sizes="auto, (max-width: 131px) 100vw, 131px"/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper">
-<div style="color: #3f9c35;"><strong><div>GAIN COMPETITIVENESS</div></strong></div></div></div></div></div></div><div class="vc_col-sm-4 about-img2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="130" width="130" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/about2.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20130%20130'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/about2.png 130w, https://agrodova.es/wp-content/uploads/2022/02/about2-100x100.png 100w" sizes="auto, (max-width: 130px) 100vw, 130px"/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper">
-<div style="color: #3f9c35;"><strong><div>FOOD WASTE</div></strong></div></div></div></div></div></div><div class="vc_col-sm-4 about-img2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="130" width="130" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/about3.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20130%20130'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/about3.png 130w, https://agrodova.es/wp-content/uploads/2022/02/about3-100x100.png 100w" sizes="auto, (max-width: 130px) 100vw, 130px"/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper">
-<div style="color: #3f9c35;"><strong><div>FIGHT AGAINST CLIMATE CHANGE</div></strong></div></div></div></div></div></div></div></div></div></div></div></div></div><div id="fws_68d15c3db6002" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_65px bottom_margin_50px right_padding_8pct left_padding_8pct right_padding_phone_0px left_padding_phone_0px top_margin_phone_30px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark center">
-<div class="vc_col-sm-12 wpb_column column_container vc_column_container col centered-text no-extra-padding max_width_desktop_750px inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div id="hide_Container_rp" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_custom_1645604384949"><div class="row-bg-wrap"> <div class="row-bg"></div></div><div class="row_col_wrap_12_inner col span_12 left">
-<div class="vc_col-sm-3 vc_hidden-xs wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper"></div></div></div><div class="vc_col-sm-3 vc_col-xs-4 about-img2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="131" width="131" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/About1.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20131%20131'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/About1.png 131w, https://agrodova.es/wp-content/uploads/2022/02/About1-100x100.png 100w" sizes="auto, (max-width: 131px) 100vw, 131px"/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper">
-<div style="color: #3f9c35;"><strong><div>GAIN COMPETITIVENESS</div></strong></div></div></div></div></div></div><div class="vc_col-sm-3 vc_col-xs-4 about-img2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="130" width="130" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/about2.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20130%20130'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/about2.png 130w, https://agrodova.es/wp-content/uploads/2022/02/about2-100x100.png 100w" sizes="auto, (max-width: 130px) 100vw, 130px"/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper">
-<div style="color: #3f9c35;"><strong><div>FOOD WASTE</div></strong></div></div></div></div></div></div><div class="vc_col-sm-3 about-img2 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="img-with-aniamtion-wrap center" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
-<div class="inner">
-<div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="130" width="130" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/about3.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20130%20130'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/about3.png 130w, https://agrodova.es/wp-content/uploads/2022/02/about3-100x100.png 100w" sizes="auto, (max-width: 130px) 100vw, 130px"/></div></div></div></div><div class="wpb_raw_code wpb_content_element wpb_raw_html">
-<div class="wpb_wrapper">
-<div style="color: #3f9c35;"><strong><div>FIGHT AGAINST CLIMATE CHANGE</div></strong></div></div></div></div></div></div></div></div></div></div></div></div></div><div id="fws_68d15c3db8e20" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row bottom_margin_0px right_padding_8pct left_padding_8pct right_padding_phone_0px left_padding_phone_0px top_margin_phone_40px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
-<div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div id="fws_68d15c3db9465" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row"><div class="row-bg-wrap"> <div class="row-bg"></div></div><div class="row_col_wrap_12_inner col span_12 left">
-<div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
-<div class="vc_column-inner">
-<div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
+<div id="hide_Container_mobile" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row"><div class="row-bg-wrap"> <div class="row-bg"></div></div>
+
+
+
+
+
+
 <div class="wpb_wrapper"> <p>Developing new varieties means shaping the fresh produce sector of decades to come. Planasa’s commitment to innovation and know-how is based on four pillars:</p></div></div></div></div></div></div></div><div id="fws_68d15c3db9c5a" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row vc_row-o-equal-height vc_row-flex vc_row-o-content-top" style="padding-top: 20px;"><div class="row-bg-wrap"> <div class="row-bg"></div></div><div class="row_col_wrap_12_inner col span_12 right">
 <div class="vc_col-sm-8 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper"> <ul> <li style="list-style-type: none;"> <ul> <li><span style="color: #000000;">Crops adapted to different weather conditions and climates (fight climate change).</span></li> <li><span style="color: #000000;">Tasty berries, garlic and asparagus that meet consumers preferences (fight food waste).</span></li> <li><span style="color: #000000;">Resistant varieties that need less fertilisation inputs (fight climate change ang gain competitiveness).</span></li> <li><span style="color: #000000;">Support farmers with the new technologies available for crop cultivation (knowledge transfer).</span></li> </ul> </li> </ul> <p style="text-align: left;">We are innovation, we are quality, we are technical support, we are the vision of a competitive and sustainable global agriculture.</p></div></div></div></div></div><div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
+<div class="wpb_wrapper"> 
+    
+
+
+
+<ul> <li style="list-style-type: none;"> <ul> <li><span style="color: #000000;">Crops adapted to different weather conditions and climates (fight climate change).</span></li> <li><span style="color: #000000;">Tasty berries, garlic and asparagus that meet consumers preferences (fight food waste).</span></li> <li><span style="color: #000000;">Resistant varieties that need less fertilisation inputs (fight climate change ang gain competitiveness).</span></li> <li><span style="color: #000000;">Support farmers with the new technologies available for crop cultivation (knowledge transfer).</span></li> </ul>
+
+
+</li> </ul> 
+
+
+
+<p style="text-align: left;">We are innovation, we are quality, we are technical support, we are the vision of a competitive and sustainable global agriculture.</p></div></div></div></div></div><div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper"> <a class="nectar-button small regular extra-color-1 regular-button pl-yellow-button" style="margin-top: 20px; color: #3f9c35;" href="/varieties/index.html" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Check our varieties</span></a></div></div></div></div></div></div></div></div></div></div><div id="fws_68d15c3dbb102" data-column-margin="default" data-midnight="dark" class="wpb_row vc_row-fluid vc_row top_margin_65px top_margin_phone_50px" style="padding-top: 0px; padding-bottom: 0px;"><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg viewport-desktop"></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
 <div class="vc_col-sm-12 wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
@@ -239,7 +186,7 @@
 <div class="img-with-aniamtion-wrap" data-max-width="100%" data-max-width-mobile="default" data-shadow="none" data-animation="fade-in">
 <div class="inner">
 <div class="hover-wrap"> 
-<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="973" width="1987" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/planasa-about-us-map.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201987%20973'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/planasa-about-us-map.png 1987w, https://agrodova.es/wp-content/uploads/2022/02/planasa-about-us-map-300x147.png 300w, https://agrodova.es/wp-content/uploads/2022/02/planasa-about-us-map-1024x501.png 1024w, https://agrodova.es/wp-content/uploads/2022/02/planasa-about-us-map-768x376.png 768w, https://agrodova.es/wp-content/uploads/2022/02/planasa-about-us-map-1536x752.png 1536w, https://agrodova.es/wp-content/uploads/2022/02/planasa-about-us-map-600x294.png 600w" sizes="auto, (max-width: 1987px) 100vw, 1987px"/></div></div></div></div></div></div></div><div class="vc_col-sm-5 vc_hidden-xs wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
+<div class="hover-wrap-inner"> <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="973" width="1987" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/about-map.png" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201987%20973'%2F%3E" alt="" data-nectar-img-srcset="https://agrodova.es/wp-content/uploads/2022/02/about-map.png 1987w, https://agrodova.es/wp-content/uploads/2022/02/.png 300w, https://agrodova.es/wp-content/uploads/2022/02/about-map.png 1024w, https://agrodova.es/wp-content/uploads/2022/02/about-map.png 768w, https://agrodova.es/wp-content/uploads/2022/02/about-map-1536x752.png 1536w, https://agrodova.es/wp-content/uploads/2022/02/about-map.png 600w" sizes="auto, (max-width: 1987px) 100vw, 1987px"/></div></div></div></div></div></div></div><div class="vc_col-sm-5 vc_hidden-xs wpb_column column_container vc_column_container col no-extra-padding inherit_tablet inherit_phone" data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
 <div class="vc_column-inner">
 <div class="wpb_wrapper">
 <div id="fws_68d15c3dbe237" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row left_padding_120px" style="padding-top: 70px;"><div class="row-bg-wrap"> <div class="row-bg"></div></div><div class="row_col_wrap_12_inner col span_12 left">
