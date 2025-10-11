@@ -585,7 +585,7 @@ font-size:45px !important;
 <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-77"><a href="technical-support"><span class="menu-title-text">Technical support</span></a></li>
 </ul>
 </li>
-<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-73"><a href="careers/index.html"><span class="menu-title-text">Careers</span></a></li>
+<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-73"><a href="careers"><span class="menu-title-text">Careers</span></a></li>
 <li id="menu-item-8646" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-8646"><a href="#"><span class="menu-title-text">About us</span></a>
 <ul class="sub-menu">
 <li id="menu-item-8645" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8645"><a href="about-us/index.html"><span class="menu-title-text">About us</span></a></li>
