@@ -342,7 +342,7 @@
               <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone">
                 <div class="vc_column-inner"><div class="wpb_wrapper">
                   <div class="wpb_text_column wpb_content_element"><div class="wpb_wrapper">
-                    <p>Developing new varieties means shaping the fresh produce sector of decades to come. Planasa’s commitment to innovation and know-how is based on four pillars:</p>
+                    <p>Developing new varieties means shaping the fresh produce sector of decades to come. Agrodova commitment to innovation and know-how is based on four pillars:</p>
                   </div></div>
                 </div></div>
               </div>
@@ -541,9 +541,12 @@
               <div class="vc_col-sm-3 img-united-nation wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone">
                 <div class="vc_column-inner"><div class="wpb_wrapper">
                   <div class="img-with-aniamtion-wrap custom-size" data-max-width="100%" data-shadow="none" data-animation="fade-in">
-                    <div class="inner"><div class="hover-wrap"><div class="hover-wrap-inner">
+                    <div class="inner">
+                        <div class="hover-wrap">
+                        <div class="hover-wrap-inner" style="margin-top:-70px;margin-bottom:70px;">
                       <img loading="lazy" decoding="async" class="img-with-animation skip-lazy nectar-lazy" data-delay="0" height="60" width="200" data-animation="fade-in" data-nectar-img-src="https://agrodova.es/wp-content/uploads/2022/02/Diseno-sin-titulo-18-1.png" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 60'/%3E" alt="UN SDGs"/>
-                    </div></div></div>
+                    </div>
+                </div></div>
                   </div>
                 </div></div>
               </div>
