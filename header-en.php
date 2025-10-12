@@ -596,7 +596,7 @@ font-size:45px !important;
 <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-71"><a href="contact"><span class="menu-title-text">Contact</span></a></li>
 <li id="menu-item-wpml-ls-36-es" class="menu-item wpml-ls-slot-36 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item nectar-regular-menu-item menu-item-wpml-ls-36-es"><a href="index-es"><span class="menu-title-text"> <img class="wpml-ls-flag" src="wp-content/uploads/flags/Grupo%201414%403x.png" alt="Spanish"/></span></a></li>
 <ul class="buttons sf-menu" data-user-set-ocm="off">
-<li id="nectar-user-account"><div><a href="index.html"><span class="icon-salient-m-user" aria-hidden="true"></span><span class="screen-reader-text">account</span></a></div></li>
+
 </ul>
 </nav>
 
