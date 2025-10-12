@@ -577,24 +577,24 @@ font-size:45px !important;
 
 <nav>
 <ul class="sf-menu">
-<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-74"><a href="varieties"><span class="menu-title-text">Varieties</span></a></li>
-<li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-75"><a href="#"><span class="menu-title-text">Activities</span></a>
+<li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-74"><a href="varieties"><span class="menu-title-text text-uppercase">Variedades</span></a></li>
+<li id="menu-item-75" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-75"><a href="#"><span class="menu-title-text">SERVICIOS</span></a>
 <ul class="sub-menu">
-<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-79"><a href="rd"><span class="menu-title-text">R&#038;D</span></a></li>
-<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-78"><a href="nursery"><span class="menu-title-text">Nursery</span></a></li>
-<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-77"><a href="technical-support"><span class="menu-title-text">Technical support</span></a></li>
+<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-79"><a href="rd"><span class="menu-title-text">I+D</span></a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-78"><a href="nursery"><span class="menu-title-text">VIVEROS</span></a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-77"><a href="technical-support"><span class="menu-title-text text-uppercase">Soporte técnico</span></a></li>
 </ul>
 </li>
-<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-73"><a href="careers"><span class="menu-title-text">Careers</span></a></li>
-<li id="menu-item-8646" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-8646"><a href="#"><span class="menu-title-text">About us</span></a>
+<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-73"><a href="careers"><span class="menu-title-text text-uppercase">empleo</span></a></li>
+<li id="menu-item-8646" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-8646"><a href="#"><span class="menu-title-text">SOBRE NOSOTROS</span></a>
 <ul class="sub-menu">
-<li id="menu-item-8645" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8645"><a href="about-us"><span class="menu-title-text">About us</span></a></li>
-<li id="menu-item-2546" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2546"><a href="vision-values"><span class="menu-title-text">History &#038; vision</span></a></li>
+<li id="menu-item-8645" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-8645"><a href="about-us"><span class="menu-title-text">SOBRE NOSOTROS</span></a></li>
+<li id="menu-item-2546" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2546"><a href="vision-values"><span class="menu-title-text text-uppercase">HISTORIA Y visión</span></a></li>
 <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-76"><a href="esg"><span class="menu-title-text">ESG</span></a></li>
 </ul>
 </li>
-<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-71"><a href="contact"><span class="menu-title-text">Contact</span></a></li>
-<li id="menu-item-wpml-ls-36-es" class="menu-item wpml-ls-slot-36 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item nectar-regular-menu-item menu-item-wpml-ls-36-es"><a href="index-es"><span class="menu-title-text"> <img class="wpml-ls-flag" src="wp-content/uploads/flags/Grupo%201414%403x.png" alt="Spanish"/></span></a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-71"><a href="contact"><span class="menu-title-text text-uppercase">Contacto</span></a></li>
+<li id="menu-item-wpml-ls-36-es" class="menu-item wpml-ls-slot-36 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item nectar-regular-menu-item menu-item-wpml-ls-36-es"><a href="index"><span class="menu-title-text"> <img class="wpml-ls-flag" src="wp-content/uploads/flags/en.svg" alt="Spanish"/></span></a></li>
 <ul class="buttons sf-menu" data-user-set-ocm="off">
 <li id="nectar-user-account"><div><a href="index.html"><span class="icon-salient-m-user" aria-hidden="true"></span><span class="screen-reader-text">account</span></a></div></li>
 </ul>
