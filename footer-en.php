@@ -55,7 +55,7 @@
     </div>
   </div>
 
-  <div class="corp-note-wrap" style="padding-left:15px;">
+  <div class="corp-note-wrap" style="padding-left:35px;">
     <p class="corp-note" style="font-size:14px;color:#A1A1A1;">All rights reserved by S. Agro Sociedad Anónima - Tax Identification Number: A59154914</p>
   </div>
 
