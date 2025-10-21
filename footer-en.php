@@ -22,12 +22,19 @@
 
   <!-- Thin divider above the copyright row -->
 
-  <div style="dispLay:fex;justify-content:left;margin-bottom:10px;">
-    <p style="text-align:left;color:#000000;">
-      All rights reserved by S. Agro Sociedad Anónima <br>
-      Tax Identification Number: A59154914
-    </p>
-  </div>
+  <style>
+    /* Corporate note: single line on laptop/desktop */
+.corp-note-wrap{ display:flex; justify-content:flex-start; margin-bottom:10px; }
+.corp-note{ margin:0; color:#000; text-align:left; }
+
+/* Keep it on one line at ≥992px; allow normal wrapping below that */
+@media (min-width: 992px){
+  .corp-note{ white-space: nowrap; }
+}
+
+  </style>
+
+  
 
   <hr style="border:0; border-top:1px solid #e5e5e5; margin: 0;">
 
@@ -46,6 +53,10 @@
         </ul>
       </div>
     </div>
+  </div>
+
+  <div class="corp-note-wrap">
+    <p class="corp-note" style="font-size:14px;color:#A1A1A1;">All rights reserved by S. Agro Sociedad Anónima - Tax Identification Number: A59154914</p>
   </div>
 
 </div><!--/#footer-outer-->
