@@ -108,6 +108,13 @@
   }
 </style>
 
+<style>
+  li {
+    font-size: 17px !important;
+    font-weight: 300 !important;
+  }
+</style>
+
 <script>
 /* Hydrate Salient's lazy images for static pages (no JS loader) */
 (function() {
