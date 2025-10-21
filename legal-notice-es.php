@@ -17,9 +17,9 @@
 <p>Se informa al Usuario de que el titular de este sitio web (<strong>www.agrodova.es</strong> o el Sitio Web) es <strong>Plantas de Navarra, S.A.</strong>, en adelante <strong>Agrodova</strong>, una empresa española con NIF A31039795, con domicilio en Valtierra (Navarra, España), carretera San Adrián km. 1, e inscrita en el Registro Mercantil de Navarra, en el tomo 1237, folio 32, sección 8, hoja NA-6186. Todos los derechos sobre los datos están reservados por Plantas de Navarra S.A.</p>
 <p>Nuestro horario de atención al cliente es de lunes a viernes de 9:00 a 17:00 horas. Visite la sección <strong>Contacto</strong> de nuestro sitio web para obtener información de contacto directo, o escríbanos a <a href="mailto:info@agrodova.es">Agrodova@agrodova.es</a>.</p>
 
-<h2>2.- Información legal</h2>
+<h2 id="para2">2.- Información legal</h2>
 <p>Las siguientes cláusulas regulan el uso del servicio del sitio web que Agrodova pone a disposición de los Usuarios de Internet, en particular en relación con el tratamiento de sus datos durante la navegación por el sitio o al ponerse en contacto con nosotros a través de los canales indicados.</p>
-<p>Agrodova podrá modificar, desarrollar o actualizar el material contenido en la web sin previo aviso. El acceso al material contenido en el sitio web no constituye ni implica ninguna relación entre Agrodova y el Usuario del sitio web más allá de lo indicado en este documento. odos los derechos legales están reservados por Several Agro Sociedad Anónima.</p>
+<p>Agrodova podrá modificar, desarrollar o actualizar el material contenido en la web sin previo aviso. El acceso al material contenido en el sitio web no constituye ni implica ninguna relación entre Agrodova y el Usuario del sitio web más allá de lo indicado en este documento. odos los derechos legales están reservados por Several Agro Sociedad Anónima NIF # A59154914.</p>
 
 <h2>3.- Condiciones de uso del Sitio Web</h2>
 <p>El Usuario se compromete a hacer un uso correcto del Sitio Web, de conformidad con la normativa aplicable y las disposiciones de este Aviso Legal. Los Usuarios serán responsables frente a Agrodova o frente a terceros de los daños y perjuicios que puedan derivarse como consecuencia de un uso incorrecto del sitio web.</p>
