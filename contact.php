@@ -73,7 +73,7 @@
   .btn-success:hover { color:#fff; background-color:#157347; border-color:#146c43; }
 </style>
 
-<div class="legal-modal-backdrop" id="legalModalBackdrop" role="dialog" aria-modal="true" aria-labelledby="legalModalTitle">
+<div class="legal-modal-backdrop" id="legalModalBackdrop" role="dialog" aria-modal="true" aria-labelledby="legalModalTitle" style="background-color:rgba(0,0,0,0.9);">
   <div class="legal-modal" role="document" tabindex="-1">
     <button type="button" class="legal-close" id="legalModalClose" aria-label="Close">×</button>
     <img class="legal-icon" src="https://www.agrodova.es/wp-content/info.png" alt="Information">

@@ -1,6 +1,113 @@
 <?php include 'header-es.php'; ?>
 
-<!-- ===== Responsive fixes for the contact form (mobile + tablet) ===== -->
+<!-- ===== Popup de Información Legal al cargar la página ===== -->
+<style>
+  /* Fondo */
+  .legal-modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.6);
+    display: none;              /* se activa con .show */
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;            /* por encima del tema/page builder */
+  }
+  .legal-modal-backdrop.show { display: flex; }
+
+  /* Tarjeta */
+  .legal-modal {
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 20px 60px rgba(2,8,23,.25);
+    width: 94%;
+    max-width: 520px;
+    padding: 24px 22px 20px;
+    position: relative;
+    text-align: center;
+  }
+
+  .legal-modal img.legal-icon {
+    display: block;
+    margin: 0 auto 12px;
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+
+  .legal-modal h3 {
+    margin: 6px 0 10px;
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #0f172a;
+  }
+
+  .legal-modal p {
+    margin: 0 0 16px;
+    color: #475569;
+    line-height: 1.55;
+  }
+
+  /* Cerrar (X) */
+  .legal-modal .legal-close {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    width: 34px;
+    height: 34px;
+    border: 0;
+    background: transparent;
+    color: #334155;
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .legal-modal .legal-close:focus { outline: 2px solid #93c5fd; border-radius: 8px; }
+
+  /* Fallback de botones tipo Bootstrap (por si no está cargado) */
+  .btn { display:inline-block; font-weight:600; text-align:center; text-decoration:none; vertical-align:middle;
+         cursor:pointer; user-select:none; border:1px solid transparent; padding:.5rem 1rem; font-size:1rem;
+         line-height:1.5; border-radius:.375rem; }
+  .btn-sm { padding:.375rem .75rem; font-size:.875rem; line-height:1.5; border-radius:.25rem; }
+  .btn-success { color:#fff; background-color:#198754; border-color:#198754; }
+  .btn-success:hover { color:#fff; background-color:#157347; border-color:#146c43; }
+</style>
+
+<div class="legal-modal-backdrop" id="legalModalBackdrop" role="dialog" aria-modal="true" aria-labelledby="legalModalTitle" style="background-color:rgba(0,0,0,0.9);">
+  <div class="legal-modal" role="document" tabindex="-1">
+    <button type="button" class="legal-close" id="legalModalClose" aria-label="Cerrar">×</button>
+    <img class="legal-icon" src="https://www.agrodova.es/wp-content/info.png" alt="Información">
+    <h3 id="legalModalTitle">Leer información legal</h3>
+    <p>Haga clic en el botón de abajo para ir a la sección de Información legal.</p>
+    <!-- Ancla directa para ir al apartado indicado -->
+    <a class="btn btn-sm btn-success" href="legal-notice-es#para2">Leer ahora</a>
+  </div>
+</div>
+
+<script>
+  // Mostrar al cargar y permitir cerrar con X, clic fuera o ESC
+  document.addEventListener('DOMContentLoaded', function () {
+    var backdrop = document.getElementById('legalModalBackdrop');
+    var closeBtn = document.getElementById('legalModalClose');
+
+    if (backdrop) {
+      backdrop.classList.add('show');
+
+      if (closeBtn) closeBtn.addEventListener('click', function(){ backdrop.classList.remove('show'); });
+      backdrop.addEventListener('click', function(e){
+        if (e.target === backdrop) backdrop.classList.remove('show');
+      });
+
+      document.addEventListener('keydown', function(e){
+        if (e.key === 'Escape') backdrop.classList.remove('show');
+      });
+    }
+  });
+</script>
+<!-- ===== Fin del popup ===== -->
+
+
+<!-- ===== Ajustes responsivos del formulario de contacto (móvil + tablet) ===== -->
 <style>
   /* Ensure the full-width row background never constrains the form */
   #ajax-content-wrap .container-wrap,

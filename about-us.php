@@ -216,7 +216,42 @@
           <div class="wpb_text_column wpb_content_element">
             <div class="wpb_wrapper" style="margin-top:30px;">
               <p class="color-green subtitle-big">Agrodova is a global leader in the agri-food sector, specializing in breeding the next generations of berry varieties: blueberries, raspberries, strawberries and blackberries.</p>
-              <p>Apart from berries, Agrodova has also substantial experience and a long-standing tradition in other products such as garlic, asparagus or avocado.</p>
+              <h3>Corporate Structure Clarified</h3>
+
+<p><b>Brand Name:</b> Agrodova</p>
+  <ul>
+  <li>This is the customer-facing, commercial brand known in the market for trading high-quality fresh fruits and vegetables.</li>
+  <li>It represents the quality, reliability, and service standards that clients expect.</li>
+</ul>
+    <p><b>Legal Entity / Parent Company:</b> Several Agro S.A. (or a similar name, with "S.A." denoting Sociedad Anónima)</p>
+    <ul>
+      <li>This is the formal legal and financial structure that owns and operates the Agrodova brand.</li>
+      <li>"Several Agro S.A." is likely the entity that manages the assets, holds the contracts with farmers, owns the packing houses, and employs the staff.</li>
+    </ul>
+
+<h3>Why This Structure is Common and Effective:</h3>
+
+<p><b>This is a standard and strategic way to organize a business for several reasons:</b></p>
+<ol>
+  <li>Brand Management: It allows "Agrodova" to be developed as a pure brand focused on quality and market perception, separate from the legal and financial operations of the parent company.</li>
+  <li>Financial and Legal Flexibility: The parent company, "Several Agro S.A.," can own multiple brands or business units without diluting the Agrodova name. It also simplifies investment, accounting, and legal liability.</li>
+  <li>Operational Focus: The Agrodova brand team can focus entirely on sales, marketing, and customer relationships, while the parent company handles backend operations like logistics, HR, and finance.</li>
+</ol>
+
+
+
+
+<p><b>Summary:</b></p>
+
+<p>In essence, the situation is as follows:
+
+"Several Agro S.A." is the engine room of the operation—the legal and corporate entity that powers the business.
+
+"Agrodova" is the flag it flies—the recognized brand that signals quality and reliability in the Spanish agricultural export market.</p>
+<br>
+
+
+
               <p>Our mission is to develop unique and superior varieties through a mix of traditional breeding methods and modern technology, and to make these new genetics available to our clients through our efficient and top-quality nursery operations. Exciting end consumers all over the world through a fantastic taste and the healthy properties of our products is what drives our daily activities.</p>
             </div>
           </div>
