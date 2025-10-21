@@ -21,13 +21,21 @@
   </div><!--/#footer-widgets-->
 
   <!-- Thin divider above the copyright row -->
-  <hr style="border:0; border-top:1px solid #e5e5e5; margin:0;">
 
-  <div class="row" id="copyright" data-layout="default" style="background:#ffffff; padding:12px 0;">
+  <div style="dispLay:fex;justify-content:left;margin-bottom:10px;">
+    <p style="text-align:left;color:#000000;">
+      All rights reserved by S. Agro Sociedad Anónima <br>
+      Tax Identification Number: A59154914
+    </p>
+  </div>
+
+  <hr style="border:0; border-top:1px solid #e5e5e5; margin: 0;">
+
+  <div class="row" id="copyright" data-layout="default" style="background:#ffffff; padding:0px 0 3px 0;">
     <div class="container copyright-flex">
       <div class="col-md-6 span_5 col-left">
         <p style="margin:0; font-size:14px; color:#333;">
-          © <?php echo $year; ?> Agrodova. All rights reserved.
+          © <?php echo $year; ?> Agrodova.
         </p>
       </div>
       <div class="col-md-6 span_7 col_last col-right">
