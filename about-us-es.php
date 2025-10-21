@@ -1,4 +1,4 @@
-<?php include('header-es.php'); ?>
+<?php include('header-es.php'); ?> 
 
 <style>
   /* 1) Hide the stuck loader overlay in static export */
@@ -215,9 +215,44 @@
         <div class="wpb_wrapper">
           <div class="wpb_text_column wpb_content_element">
             <div class="wpb_wrapper" style="margin-top:30px;">
-              <p class="color-green subtitle-big">Agrodova es líder global en el sector agroalimentario, especializada en obtener las próximas generaciones de variedades de berries: arándanos, frambuesas, fresas y moras.</p>
-              <p>Además de las berries, Agrodova cuenta con una amplia experiencia y una larga tradición en otros productos como el ajo, el espárrago o el aguacate.</p>
-              <p>Nuestra misión es desarrollar variedades únicas y superiores mediante una combinación de métodos tradicionales de mejora y tecnología moderna, y poner esta nueva genética a disposición de nuestros clientes a través de operaciones viverísticas eficientes y de máxima calidad. Ilusionar a los consumidores de todo el mundo con un sabor fantástico y las propiedades saludables de nuestros productos impulsa nuestra actividad diaria.</p>
+              <p class="color-green subtitle-big">Agrodova es líder global en el sector agroalimentario, especializada en el mejoramiento de nuevas generaciones de variedades de berries: arándanos, frambuesas, fresas y moras.</p>
+              <h3>Estructura corporativa aclarada</h3>
+
+<p><b>Nombre de la marca:</b> Agrodova</p>
+  <ul>
+  <li>Es la marca comercial de cara al cliente, reconocida en el mercado por comercializar frutas y verduras frescas de alta calidad.</li>
+  <li>Representa los estándares de calidad, fiabilidad y servicio que esperan los clientes.</li>
+</ul>
+    <p><b>Entidad legal / Empresa matriz:</b> Several Agro S.A. (o un nombre similar, donde «S.A.» denota Sociedad Anónima)</p>
+    <ul>
+      <li>Es la estructura legal y financiera formal que posee y opera la marca Agrodova.</li>
+      <li>«Several Agro S.A.» probablemente es la entidad que gestiona los activos, mantiene los contratos con los agricultores, es propietaria de las plantas de envasado y emplea al personal.</li>
+    </ul>
+
+<h3>Por qué esta estructura es común y eficaz:</h3>
+
+<p><b>Se trata de una forma estándar y estratégica de organizar un negocio por varias razones:</b></p>
+<ol>
+  <li><b>Gestión de marca:</b> Permite desarrollar «Agrodova» como una marca pura centrada en la calidad y la percepción del mercado, separada de las operaciones legales y financieras de la matriz.</li>
+  <li><b>Flexibilidad financiera y legal:</b> La empresa matriz, «Several Agro S.A.», puede poseer múltiples marcas o unidades de negocio sin diluir el nombre Agrodova. También simplifica la inversión, la contabilidad y la responsabilidad legal.</li>
+  <li><b>Enfoque operativo:</b> El equipo de la marca Agrodova puede centrarse por completo en ventas, marketing y relaciones con clientes, mientras la matriz gestiona las operaciones de soporte como logística, RR. HH. y finanzas.</li>
+</ol>
+
+
+
+
+<p><b>Resumen:</b></p>
+
+<p>En esencia, la situación es la siguiente:</p>
+
+<p>«Several Agro S.A.» es la sala de máquinas de la operación: la entidad legal y corporativa que impulsa el negocio.</p>
+
+<p>«Agrodova» es la bandera que enarbola: la marca reconocida que transmite calidad y fiabilidad en el mercado español de exportación agrícola.</p>
+<br>
+
+
+
+              <p>Nuestra misión es desarrollar variedades únicas y superiores mediante una combinación de métodos tradicionales de mejora y tecnología moderna, y poner estas nuevas genéticas a disposición de nuestros clientes a través de viveros eficientes y de máxima calidad. Entusiasmar a los consumidores de todo el mundo con un sabor fantástico y las propiedades saludables de nuestros productos es lo que impulsa nuestras actividades diarias.</p>
             </div>
           </div>
         </div>
@@ -260,7 +295,7 @@
                     </div></div></div>
                   </div>
                   <div class="wpb_raw_code wpb_content_element wpb_raw_html"><div class="wpb_wrapper">
-                    <div class="counter-space"><div class="counter-about">Presencia en <br><b>+<span class="counter">25</span></b><br> PAÍSES</div></div>
+                    <div class="counter-space"><div class="counter-about">Presentes en <br><b>+<span class="counter">25</span></b><br> PAÍSES</div></div>
                   </div></div>
                 </div></div>
               </div>
@@ -342,7 +377,7 @@
               <div class="vc_col-sm-12 wpb_column column_container vc_column_container col child_column no-extra-padding inherit_tablet inherit_phone">
                 <div class="vc_column-inner"><div class="wpb_wrapper">
                   <div class="wpb_text_column wpb_content_element"><div class="wpb_wrapper">
-                    <p>Desarrollar nuevas variedades significa dar forma al sector de productos frescos de las próximas décadas. El compromiso de Agrodova con la innovación y el know-how se apoya en cuatro pilares:</p>
+                    <p>Desarrollar nuevas variedades significa moldear el sector de frescos de las próximas décadas. El compromiso de Agrodova con la innovación y el <i>know-how</i> se basa en cuatro pilares:</p>
                   </div></div>
                 </div></div>
               </div>
@@ -356,19 +391,19 @@
                 <div class="vc_column-inner"><div class="wpb_wrapper">
                   <div class="wpb_text_column wpb_content_element"><div class="wpb_wrapper">
                     <ul class="agro-left">
-                      <li><span style="color:#000000;">Cultivos adaptados a distintas condiciones meteorológicas y climas (combatir el cambio climático).</span></li>
-                      <li><span style="color:#000000;">Berries, ajo y espárrago sabrosos que se ajustan a las preferencias del consumidor (reducir el desperdicio alimentario).</span></li>
-                      <li><span style="color:#000000;">Variedades resistentes que requieren menos insumos de fertilización (combatir el cambio climático y ganar competitividad).</span></li>
+                      <li><span style="color:#000000;">Cultivos adaptados a distintas condiciones meteorológicas y climas (lucha contra el cambio climático).</span></li>
+                      <li><span style="color:#000000;">Berries, ajo y espárragos sabrosos que se ajustan a las preferencias de los consumidores (combatir el desperdicio alimentario).</span></li>
+                      <li><span style="color:#000000;">Variedades resistentes que requieren menos insumos de fertilización (luchar contra el cambio climático y ganar competitividad).</span></li>
                       <li><span style="color:#000000;">Apoyar a los agricultores con nuevas tecnologías para el cultivo (transferencia de conocimiento).</span></li>
                     </ul>
-                    <p style="text-align:left; margin-top:30px;">Somos innovación, somos calidad, somos soporte técnico; somos la visión de una agricultura global competitiva y sostenible.</p>
+                    <p style="text-align:left; margin-top:30px;">Somos innovación, somos calidad, somos soporte técnico, somos la visión de una agricultura global competitiva y sostenible.</p>
                   </div></div>
                 </div></div>
               </div>
 
               <div class="vc_col-sm-4 wpb_column column_container vc_column_container col child_column centered-text no-extra-padding inherit_tablet inherit_phone">
                 <div class="vc_column-inner"><div class="wpb_wrapper">
-                  <a class="nectar-button small regular extra-color-1 regular-button pl-yellow-button" style="margin-top:20px; color:#3f9c35;" href="varieties-es" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Ver nuestras variedades</span></a>
+                  <a class="nectar-button small regular extra-color-1 regular-button pl-yellow-button" style="margin-top:20px; color:#3f9c35;" href="varieties" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Ver nuestras variedades</span></a>
                 </div></div>
               </div>
 
@@ -404,7 +439,7 @@
     <div class="vc_col-sm-5 wpb_column column_container vc_column_container col force-phone-text-align-left no-extra-padding inherit_tablet inherit_phone">
       <div class="vc_column-inner"><div class="wpb_wrapper">
         <div class="wpb_text_column wpb_content_element"><div class="wpb_wrapper">
-          <p>Gracias a nuestro equipo comercial internacional y a una amplia red de socios, Agrodova cuenta con presencia global.</p>
+          <p>Gracias a nuestra fuerza de ventas global y a una amplia red de socios, Agrodova tiene presencia en todo el mundo.</p>
         </div></div>
       </div></div>
     </div>
@@ -435,7 +470,7 @@
 
         <div class="country-grid">
           <div class="country-item">
-            <h4>ESPAÑA</h4>
+            <h4>SPAIN</h4>
             <ul>
               <li>Valtierra</li>
               <li>Cartaya</li>
@@ -446,7 +481,7 @@
           </div>
 
           <div class="country-item">
-            <h4>POLONIA</h4>
+            <h4>POLAND</h4>
             <ul>
               <li>Gniezno</li>
               <li>Ostrowo</li>
@@ -455,40 +490,40 @@
           </div>
 
           <div class="country-item">
-            <h4>MÉXICO</h4>
+            <h4>MEXICO</h4>
             <ul>
               <li>Guadalajara</li>
-              <li>Michoacán</li>
+              <li>Michoacan</li>
               <li>Guanajuato</li>
             </ul>
           </div>
 
           <div class="country-item">
-            <h4>EE. UU.</h4>
+            <h4>USA</h4>
             <ul>
               <li>Anderson</li>
-              <li>Río Vista</li>
+              <li>Rio Vista</li>
               <li>Red Bluff</li>
               <li>Macdoel</li>
             </ul>
           </div>
 
           <div class="country-item">
-            <h4>FRANCIA</h4>
+            <h4>FRANCE</h4>
             <ul>
-              <li>Le Barp</li>
+              <li>LeBarp</li>
             </ul>
           </div>
 
           <div class="country-item">
-            <h4>ITALIA</h4>
+            <h4>ITALY</h4>
             <ul>
               <li>Policoro</li>
             </ul>
           </div>
 
           <div class="country-item">
-            <h4>RUMANÍA</h4>
+            <h4>ROMANIA</h4>
             <ul>
               <li>Caracal</li>
             </ul>
@@ -502,21 +537,21 @@
           </div>
 
           <div class="country-item">
-            <h4>PAÍSES BAJOS</h4>
+            <h4>NETHERLANDS</h4>
             <ul>
               <li>Roermond</li>
             </ul>
           </div>
 
           <div class="country-item">
-            <h4>PERÚ</h4>
+            <h4>PERU</h4>
             <ul>
               <li>Trujillo</li>
             </ul>
           </div>
 
           <div class="country-item">
-            <h4>MARRUECOS</h4>
+            <h4>MOROCCO</h4>
             <ul>
               <li>Kénitra</li>
             </ul>
@@ -563,4 +598,4 @@
 
 </div></div></div></div>
 
-<?php include 'footer-es.php'; ?>
+<?php include 'footer-es.php'; ?> 
