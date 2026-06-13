@@ -1,0 +1,14 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Make sure we are not rewriting existing files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect URLs without .php extension to actual .php files
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L,QSA]
+
+# Optional: Remove .php extension from displayed URLs (for cleaner redirects)
+RewriteCond %{THE_REQUEST} "^[A-Z]{3,9}\ /([^/]+/)*([^/.]+)\.php(\?[^\ ]*)?\ HTTP/"
+RewriteRule ^ %1%2 [R=301,L]
